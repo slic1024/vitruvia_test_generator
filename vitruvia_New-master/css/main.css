@@ -1,0 +1,14 @@
+.LEGONAME{
+    font-size: medium;
+    /*font-weight: bold;*/
+}
+.inputTests{
+    font-size: large;
+}
+.color-button{
+    width: 125px;
+    text-align: left;
+}
+.color-button:active{
+    background-color: #1f2021;
+}
