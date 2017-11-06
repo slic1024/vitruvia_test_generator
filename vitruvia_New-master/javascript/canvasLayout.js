@@ -432,7 +432,7 @@ var particles = [],
 var launchInterval, loopInterval;
 // init
 function initFireWorks(){
-    fireworks = true;
+    /*fireworks = true;*/
     particles = [];
     rockets = [];
     fireWorksSound.play();

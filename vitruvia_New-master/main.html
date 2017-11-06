@@ -30,11 +30,8 @@
 </div>
 <div class = "container questionNumber">
     <div class = "row">
-        <div class = "col-md-4">
-
-        </div>
-        <div class = "col-md-4">
-            <p id = "questionNumber" style = "color:blue; font-size: 36px;"></p>
+        <div class = "col-md-12">
+            <p id = "questionNumber" style = "color:black; font-size: 20px;"></p>
         </div>
     </div>
 </div>
@@ -178,6 +175,7 @@
         <div id = "Exercise" class="col-md-6">
         </div>
         <div class="col-md-6">
+            <p style="float: right; font-size: 20px;" id = "time"></p>
             <canvas id = "vitruvia_canvas"></canvas>
             <table class = "table">
                 <tbody>
@@ -220,10 +218,10 @@
                 </button>
             </div>
             <br><br>
-            <div><input type="submit" class="btn btn-info btn-lg" onclick="checkSolution();" value="Submit">
-                <button id = "next_exercise" type="button" class="btn btn-info btn-lg" onclick="loadExercise(selectedQuestions[currentQuestion].testConceptId,selectedQuestions[currentQuestion].testExerciseId);">
+            <div><input type="submit" class="btn btn-info btn-lg" onclick="checkSolution();" value="Check">
+                <!--<button id = "next_exercise" type="button" class="btn btn-info btn-lg" onclick="loadExercise(selectedQuestions[currentQuestion].testConceptId,selectedQuestions[currentQuestion].testExerciseId);">
                     NEXT <span class="glyphicon glyphicon-chevron-right"></span>
-                </button></div>
+                </button>--></div>
         </div>
     </div>
 </div>
@@ -234,9 +232,10 @@
 
         </div>
         <div class = "col-md-6">
-            <p class ="inforesults" style = "color:blue; font-size: 36px;" id = "resultHeading"></p>
+            <!--<p class ="inforesults" style = "color:blue; font-size: 36px;" id = "resultHeading"></p>
             <p class ="inforesults" style = "color:blue; font-size: 36px;" id = "results"></p>
-            <button class = "btn-lg" onclick="location.reload();">Restart Test</button>
+            <button class = "btn-lg" onclick="location.reload();">Restart Test</button>-->
+            <div id = 'summary'></div>
         </div>
     </div>
 </div>
