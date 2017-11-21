@@ -5485,7 +5485,7 @@ function numberOfExercisesInConcept(conceptId){
 function startTest(){
     var numberOfConcepts = selectedTestConcepts.length;
     var totalNumberOfQuestions = 0;
-    var randomConcept;
+    var randomConcept = 0;
     var randomQuestion;
     var numberOfQuestionsInRandomConcept;
     if(selectedTestConcepts.length == 0){
@@ -5499,10 +5499,14 @@ function startTest(){
         numberOfQuestions = totalNumberOfQuestions;
     }
     for(var x = 0; x< numberOfQuestions; x++){
-        randomConcept = Math.floor(Math.random(selectedTestConcepts.length));
+        if(randomConcept == selectedTestConcepts.length){
+            randomConcept = 0;
+        }
+        //randomConcept = Math.floor(Math.random(selectedTestConcepts.length));
         numberOfQuestionsInRandomConcept = numberOfExercisesInConcept(selectedTestConcepts[randomConcept]);
         randomQuestion = Math.floor(Math.random()*numberOfQuestionsInRandomConcept) + 1;
         selectedQuestions.push(new TestConcept(selectedTestConcepts[randomConcept],randomQuestion));
+        randomConcept++;
     }
     loadExercise(selectedQuestions[0].testConceptId,selectedQuestions[0].testExerciseId);
 }
