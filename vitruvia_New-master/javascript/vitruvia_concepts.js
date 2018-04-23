@@ -4207,15 +4207,15 @@ exercises.push(new Exercise(20,4,5,
 "<p line-height: 80%;'>show \"artifact\";" +
 "<hr style='border-width: 3px; border-style: inset;'>",
     [
-        new SolutionCell(0,0,"BLACK"),
-        new SolutionCell(1,0,"BLACK"),
-        new SolutionCell(2,0,"BLACK"),
-        new SolutionCell(3,0,"BLACK"),
+        new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(2,0,"BLUE"),
+        new SolutionCell(3,0,"BLUE"),
 
-        new SolutionCell(0,1,"BLUE"),
-        new SolutionCell(1,1,"BLUE"),
-        new SolutionCell(2,1,"BLUE"),
-        new SolutionCell(3,1,"BLUE")
+        new SolutionCell(0,1,"BLACK"),
+        new SolutionCell(1,1,"BLACK"),
+        new SolutionCell(2,1,"BLACK"),
+        new SolutionCell(3,1,"BLACK")
     ]
 ));
 
