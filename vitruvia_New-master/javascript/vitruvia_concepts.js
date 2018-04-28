@@ -373,7 +373,7 @@ exercises.push(new Exercise(2,17,5,
     "<p>Let (x,z) be (2,2)</p>" +
     "<p>Put a RED brick at (2,2)</p>"+
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x,z), (x+1,z), (x,z+1), (x-1,z), (x,z-1), (x+1,z+1), (x-1,z+1), (x-1,z-1), (x+1,z-1)</p>"+
+    "<p>(x+1,z), (x,z+1), (x-1,z), (x,z-1), (x+1,z+1), (x-1,z+1), (x-1,z-1), (x+1,z-1)</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,2,"RED"),
         new SolutionCell(3,2,"BLUE"),
@@ -391,7 +391,7 @@ exercises.push(new Exercise(2,18,5,
     "<p>Let (x,z) be (2,2)</p>" +
     "<p>Put a BLACK brick at (2,2)</p>"+
     "<p>Put a RED brick in the cells whose locations are:</p>"+
-    "<p>(x,z), (x+1,z+1), (x-1,z+1), (x-1,z-1), (x+1,z-1), (x+2,z+2), (x-2,z+2), (x-2,z-2), (x+2,z-2)</p>"+
+    "<p>(x+1,z+1), (x-1,z+1), (x-1,z-1), (x+1,z-1), (x+2,z+2), (x-2,z+2), (x-2,z-2), (x+2,z-2)</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(2,2,"BLACK"),
         new SolutionCell(3,3,"RED"),
@@ -433,19 +433,19 @@ exercises.push(new Exercise(2,20,7,
     [   new SolutionCell(0,3,"GRAY"),
         new SolutionCell(1,3,"GRAY"),
         new SolutionCell(2,3,"GRAY"),
-        new SolutionCell(3,4,"GRAY"),
+        new SolutionCell(3,3,"GRAY"),
         new SolutionCell(4,3,"GRAY"),
         new SolutionCell(5,3,"GRAY"),
         new SolutionCell(6,3,"GRAY"),
         new SolutionCell(1,4,"GRAY"),
-        new SolutionCell(5,4,"GRAY"),
         new SolutionCell(2,5,"GRAY"),
-        new SolutionCell(4,5,"GRAY"),
         new SolutionCell(3,6,"GRAY"),
-        new SolutionCell(3,5,"WHITE"),
+        new SolutionCell(4,5,"GRAY"),
+        new SolutionCell(5,4,"GRAY"),
         new SolutionCell(2,4,"WHITE"),
         new SolutionCell(3,4,"WHITE"),
-        new SolutionCell(4,5,"WHITE")]
+        new SolutionCell(4,4,"WHITE"),
+        new SolutionCell(3,5,"WHITE")]
 ));
 
 // ---------------------------------------------------------------------------------------------------------------------
