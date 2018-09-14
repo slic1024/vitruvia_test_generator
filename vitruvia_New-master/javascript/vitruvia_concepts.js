@@ -307,7 +307,7 @@ exercises.push(new Exercise(2,12,5,
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>Let (x,z) be (0,4)</p>" +
     "<p>Put a BLUE brick in the cells whose locations are:</p>"+
-    "<p>(x,z), (x+1,z-3), (x+2,z-2), (x+3,z-3), (x+4,z-4)</p>"+
+    "<p>(x,z), (x+1,z-1), (x+2,z-2), (x+3,z-3), (x+4,z-4)</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,4,"BLUE"),
         new SolutionCell(1,3,"BLUE"),
@@ -2421,7 +2421,7 @@ exercises.push(new Exercise(11,8,6,
     "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"GREEN"),
         new SolutionCell(1,0,"GREEN"),
-        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
         new SolutionCell(1,1,"GREEN"),
         new SolutionCell(0,4,"GREEN"),
         new SolutionCell(1,4,"GREEN"),
@@ -3275,6 +3275,512 @@ exercises.push(new Exercise(14,7,7,
         new SolutionCell(7,8,"BLUE"),
         new SolutionCell(8,8,"BLUE")]
 ));
+
+exercises.push(new Exercise(14,9,10,
+    "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 7</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>put2D (8,2) BLACK (0,2);</p>"+
+    "<p>put2D (2,6) BLACK (6,0);</p>"+
+    "<p>put2D (8,2) BLACK (2,6);</p>"+
+    "<p>put2D (2,6) BLACK (2,4);</p>"+
+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,2,'BLACK'),
+        new SolutionCell(1,2,'BLACK'),
+        new SolutionCell(2,2,'BLACK'),
+        new SolutionCell(3,2,'BLACK'),
+        new SolutionCell(4,2,'BLACK'),
+        new SolutionCell(5,2,'BLACK'),
+        new SolutionCell(6,2,'BLACK'),
+        new SolutionCell(7,2,'BLACK'),
+
+        new SolutionCell(0,3,'BLACK'),
+        new SolutionCell(1,3,'BLACK'),
+        new SolutionCell(2,3,'BLACK'),
+        new SolutionCell(3,3,'BLACK'),
+        new SolutionCell(4,3,'BLACK'),
+        new SolutionCell(5,3,'BLACK'),
+        new SolutionCell(6,3,'BLACK'),
+        new SolutionCell(7,3,'BLACK'),
+
+        new SolutionCell(2,6,'BLACK'),
+        new SolutionCell(3,6,'BLACK'),
+        new SolutionCell(4,6,'BLACK'),
+        new SolutionCell(5,6,'BLACK'),
+        new SolutionCell(6,6,'BLACK'),
+        new SolutionCell(7,6,'BLACK'),
+        new SolutionCell(8,6,'BLACK'),
+        new SolutionCell(9,6,'BLACK'),
+
+        new SolutionCell(2,7,'BLACK'),
+        new SolutionCell(3,7,'BLACK'),
+        new SolutionCell(4,7,'BLACK'),
+        new SolutionCell(5,7,'BLACK'),
+        new SolutionCell(6,7,'BLACK'),
+        new SolutionCell(7,7,'BLACK'),
+        new SolutionCell(8,7,'BLACK'),
+        new SolutionCell(9,7,'BLACK'),
+
+        new SolutionCell(2,4,'BLACK'),
+        new SolutionCell(3,4,'BLACK'),
+        new SolutionCell(2,5,'BLACK'),
+        new SolutionCell(3,5,'BLACK'),
+        new SolutionCell(2,8,'BLACK'),
+        new SolutionCell(3,8,'BLACK'),
+        new SolutionCell(2,9,'BLACK'),
+        new SolutionCell(3,9,'BLACK'),
+
+        new SolutionCell(6,0,'BLACK'),
+        new SolutionCell(6,1,'BLACK'),
+        new SolutionCell(6,4,'BLACK'),
+        new SolutionCell(6,5,'BLACK'),
+
+        new SolutionCell(7,0,'BLACK'),
+        new SolutionCell(7,1,'BLACK'),
+        new SolutionCell(7,4,'BLACK'),
+        new SolutionCell(7,5,'BLACK')
+    ]
+));
+
+exercises.push(new Exercise(14,10,10,
+    "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 8</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p>put2D (10,1) BLACK (0,0);</p>"+
+    "<p>put2D ( 1,9) BLACK (9,0);</p>"+
+    "<p>put2D ( 8,1) BLACK (2,8);</p>"+
+    "<p>put2D ( 1,7) BLACK (2,2);</p>"+
+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+
+    [
+        new SolutionCell(0,0,'BLACK'),
+        new SolutionCell(1,0,'BLACK'),
+        new SolutionCell(2,0,'BLACK'),
+        new SolutionCell(3,0,'BLACK'),
+        new SolutionCell(4,0,'BLACK'),
+        new SolutionCell(5,0,'BLACK'),
+        new SolutionCell(6,0,'BLACK'),
+        new SolutionCell(7,0,'BLACK'),
+        new SolutionCell(8,0,'BLACK'),
+        new SolutionCell(9,0,'BLACK'),
+
+        new SolutionCell(9,1,'BLACK'),
+        new SolutionCell(9,2,'BLACK'),
+        new SolutionCell(9,3,'BLACK'),
+        new SolutionCell(9,4,'BLACK'),
+        new SolutionCell(9,5,'BLACK'),
+        new SolutionCell(9,6,'BLACK'),
+        new SolutionCell(9,7,'BLACK'),
+        new SolutionCell(9,8,'BLACK'),
+
+        new SolutionCell(8,8,'BLACK'),
+        new SolutionCell(7,8,'BLACK'),
+        new SolutionCell(6,8,'BLACK'),
+        new SolutionCell(5,8,'BLACK'),
+        new SolutionCell(4,8,'BLACK'),
+        new SolutionCell(3,8,'BLACK'),
+        new SolutionCell(2,8,'BLACK'),
+
+        new SolutionCell(2,7,'BLACK'),
+        new SolutionCell(2,6,'BLACK'),
+        new SolutionCell(2,5,'BLACK'),
+        new SolutionCell(2,4,'BLACK'),
+        new SolutionCell(2,3,'BLACK'),
+        new SolutionCell(2,2,'BLACK')
+    ]
+));
+
+exercises.push(new Exercise(14,11,10,
+    "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 9</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p>put2D (5,5) BLACK (0,0);</p>"+
+    "<p>put2D (3,3) EMPTY (1,1);</p>"+
+
+    "<p>put2D (5,1) RED   (2,2);</p>"+
+    "<p>put2D (1,5) RED   (6,2);</p>"+
+    "<p>put2D (5,1) RED   (2,6);</p>"+
+    "<p>put2D (1,5) RED   (2,2);</p>"+
+
+"<hr style='border-width: 3px; border-style: inset;'>",
+
+    [
+        new SolutionCell(0,0,'BLACK'),
+        new SolutionCell(1,0,'BLACK'),
+        new SolutionCell(2,0,'BLACK'),
+        new SolutionCell(3,0,'BLACK'),
+        new SolutionCell(4,0,'BLACK'),
+
+        new SolutionCell(4,1,'BLACK'),
+        new SolutionCell(4,3,'BLACK'),
+        new SolutionCell(4,4,'BLACK'),
+
+        new SolutionCell(3,4,'BLACK'),
+        new SolutionCell(1,4,'BLACK'),
+        new SolutionCell(0,4,'BLACK'),
+
+        new SolutionCell(0,3,'BLACK'),
+        new SolutionCell(0,2,'BLACK'),
+        new SolutionCell(0,1,'BLACK'),
+
+        new SolutionCell(2,2,'RED'),
+        new SolutionCell(3,2,'RED'),
+        new SolutionCell(4,2,'RED'),
+        new SolutionCell(5,2,'RED'),
+        new SolutionCell(6,2,'RED'),
+
+        new SolutionCell(6,3,'RED'),
+        new SolutionCell(6,4,'RED'),
+        new SolutionCell(6,5,'RED'),
+        new SolutionCell(6,6,'RED'),
+
+        new SolutionCell(5,6,'RED'),
+        new SolutionCell(4,6,'RED'),
+        new SolutionCell(3,6,'RED'),
+        new SolutionCell(2,6,'RED'),
+
+        new SolutionCell(2,5,'RED'),
+        new SolutionCell(2,4,'RED'),
+        new SolutionCell(2,3,'RED')
+    ]
+));
+
+exercises.push(new Exercise(14,12,9,
+    "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 10</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p>put2D (9,9) RED (0,0);</p>"+
+    "<p>put2D (3,7) WHITE (3,1);</p>"+
+    "<p>put2D (7,3) WHITE (1,3);</p>"+
+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+
+    [
+        new SolutionCell(0,0,'RED'),
+        new SolutionCell(1,0,'RED'),
+        new SolutionCell(2,0,'RED'),
+        new SolutionCell(3,0,'RED'),
+        new SolutionCell(4,0,'RED'),
+        new SolutionCell(5,0,'RED'),
+        new SolutionCell(6,0,'RED'),
+        new SolutionCell(7,0,'RED'),
+        new SolutionCell(8,0,'RED'),
+
+        new SolutionCell(0,1,'RED'),
+        new SolutionCell(1,1,'RED'),
+        new SolutionCell(2,1,'RED'),
+        new SolutionCell(3,1,'WHITE'),
+        new SolutionCell(4,1,'WHITE'),
+        new SolutionCell(5,1,'WHITE'),
+        new SolutionCell(6,1,'RED'),
+        new SolutionCell(7,1,'RED'),
+        new SolutionCell(8,1,'RED'),
+
+        new SolutionCell(0,2,'RED'),
+        new SolutionCell(1,2,'RED'),
+        new SolutionCell(2,2,'RED'),
+        new SolutionCell(3,2,'WHITE'),
+        new SolutionCell(4,2,'WHITE'),
+        new SolutionCell(5,2,'WHITE'),
+        new SolutionCell(6,2,'RED'),
+        new SolutionCell(7,2,'RED'),
+        new SolutionCell(8,2,'RED'),
+
+        new SolutionCell(0,3,'RED'),
+        new SolutionCell(1,3,'WHITE'),
+        new SolutionCell(2,3,'WHITE'),
+        new SolutionCell(3,3,'WHITE'),
+        new SolutionCell(4,3,'WHITE'),
+        new SolutionCell(5,3,'WHITE'),
+        new SolutionCell(6,3,'WHITE'),
+        new SolutionCell(7,3,'WHITE'),
+        new SolutionCell(8,3,'RED'),
+
+        new SolutionCell(0,4,'RED'),
+        new SolutionCell(1,4,'WHITE'),
+        new SolutionCell(2,4,'WHITE'),
+        new SolutionCell(3,4,'WHITE'),
+        new SolutionCell(4,4,'WHITE'),
+        new SolutionCell(5,4,'WHITE'),
+        new SolutionCell(6,4,'WHITE'),
+        new SolutionCell(7,4,'WHITE'),
+        new SolutionCell(8,4,'RED'),
+
+        new SolutionCell(0,5,'RED'),
+        new SolutionCell(1,5,'WHITE'),
+        new SolutionCell(2,5,'WHITE'),
+        new SolutionCell(3,5,'WHITE'),
+        new SolutionCell(4,5,'WHITE'),
+        new SolutionCell(5,5,'WHITE'),
+        new SolutionCell(6,5,'WHITE'),
+        new SolutionCell(7,5,'WHITE'),
+        new SolutionCell(8,5,'RED'),
+
+        new SolutionCell(0,6,'RED'),
+        new SolutionCell(1,6,'RED'),
+        new SolutionCell(2,6,'RED'),
+        new SolutionCell(3,6,'WHITE'),
+        new SolutionCell(4,6,'WHITE'),
+        new SolutionCell(5,6,'WHITE'),
+        new SolutionCell(6,6,'RED'),
+        new SolutionCell(7,6,'RED'),
+        new SolutionCell(8,6,'RED'),
+
+        new SolutionCell(0,7,'RED'),
+        new SolutionCell(1,7,'RED'),
+        new SolutionCell(2,7,'RED'),
+        new SolutionCell(3,7,'WHITE'),
+        new SolutionCell(4,7,'WHITE'),
+        new SolutionCell(5,7,'WHITE'),
+        new SolutionCell(6,7,'RED'),
+        new SolutionCell(7,7,'RED'),
+        new SolutionCell(8,7,'RED'),
+
+        new SolutionCell(0,8,'RED'),
+        new SolutionCell(1,8,'RED'),
+        new SolutionCell(2,8,'RED'),
+        new SolutionCell(3,8,'RED'),
+        new SolutionCell(4,8,'RED'),
+        new SolutionCell(5,8,'RED'),
+        new SolutionCell(6,8,'RED'),
+        new SolutionCell(7,8,'RED'),
+        new SolutionCell(8,8,'RED')
+    ]
+));
+
+
+
+exercises.push(new Exercise(14,13,5,
+    "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 11</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p>put2D (5,1) BLUE (0,0);</p>"+
+    "<p>put2D (5,1) BLUE (0,2);</p>"+
+    "<p>put2D (5,1) BLUE (0,4);</p>"+
+    "<p>put2D (1,1) BLUE (0,3);</p>"+
+    "<p>put2D (1,1) BLUE (4,1);</p>"+
+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+
+    [
+        new SolutionCell(0,0,'BLUE'),
+        new SolutionCell(1,0,'BLUE'),
+        new SolutionCell(2,0,'BLUE'),
+        new SolutionCell(3,0,'BLUE'),
+        new SolutionCell(4,0,'BLUE'),
+
+        new SolutionCell(0,2,'BLUE'),
+        new SolutionCell(1,2,'BLUE'),
+        new SolutionCell(2,2,'BLUE'),
+        new SolutionCell(3,2,'BLUE'),
+        new SolutionCell(4,2,'BLUE'),
+
+        new SolutionCell(0,4,'BLUE'),
+        new SolutionCell(1,4,'BLUE'),
+        new SolutionCell(2,4,'BLUE'),
+        new SolutionCell(3,4,'BLUE'),
+        new SolutionCell(4,4,'BLUE'),
+
+        new SolutionCell(0,3,'BLUE'),
+        new SolutionCell(4,1,'BLUE')
+    ]
+));
+
+
+exercises.push(new Exercise(14,14,5,
+    "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 12</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p>put2D (5,5) GREEN (0,0);</p>"+
+    "<p>put2D (4,1) EMPTY (0,1);</p>"+
+    "<p>put2D (4,1) EMPTY (1,3);</p>"+
+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+
+    [
+        new SolutionCell(0,0,'GREEN'),
+        new SolutionCell(1,0,'GREEN'),
+        new SolutionCell(2,0,'GREEN'),
+        new SolutionCell(3,0,'GREEN'),
+        new SolutionCell(4,0,'GREEN'),
+
+        new SolutionCell(0,2,'GREEN'),
+        new SolutionCell(1,2,'GREEN'),
+        new SolutionCell(2,2,'GREEN'),
+        new SolutionCell(3,2,'GREEN'),
+        new SolutionCell(4,2,'GREEN'),
+
+        new SolutionCell(0,4,'GREEN'),
+        new SolutionCell(1,4,'GREEN'),
+        new SolutionCell(2,4,'GREEN'),
+        new SolutionCell(3,4,'GREEN'),
+        new SolutionCell(4,4,'GREEN'),
+
+        new SolutionCell(0,3,'GREEN'),
+        new SolutionCell(4,1,'GREEN')
+    ]
+));
+
+exercises.push(new Exercise(14,15,8,
+    "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 13</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p>put2D (3,3) BLUE  (0,0);</p>"+
+    "<p>put2D (2,2) BLACK (3,3);</p>"+
+    "<p>put2D (3,3) BLUE  (5,5);</p>"+
+
+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+
+    [
+        new SolutionCell(0,0,'BLUE'),
+        new SolutionCell(1,0,'BLUE'),
+        new SolutionCell(2,0,'BLUE'),
+        new SolutionCell(0,1,'BLUE'),
+        new SolutionCell(1,1,'BLUE'),
+        new SolutionCell(2,1,'BLUE'),
+        new SolutionCell(0,2,'BLUE'),
+        new SolutionCell(1,2,'BLUE'),
+        new SolutionCell(2,2,'BLUE'),
+
+        new SolutionCell(3,3,'BLACK'),
+        new SolutionCell(4,3,'BLACK'),
+        new SolutionCell(3,4,'BLACK'),
+        new SolutionCell(4,4,'BLACK'),
+
+        new SolutionCell(5,5,'BLUE'),
+        new SolutionCell(6,5,'BLUE'),
+        new SolutionCell(7,5,'BLUE'),
+        new SolutionCell(5,6,'BLUE'),
+        new SolutionCell(6,6,'BLUE'),
+        new SolutionCell(7,6,'BLUE'),
+        new SolutionCell(5,7,'BLUE'),
+        new SolutionCell(6,7,'BLUE'),
+        new SolutionCell(7,7,'BLUE')
+    ]
+));
+
+
+exercises.push(new Exercise(14,16,7,
+    "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 14</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p>put2D (3,3) BLUE  (0,0);</p>"+
+    "<p>put2D (3,3) BLUE  (4,4);</p>"+
+    "<p>put2D (3,3) BLACK (2,2);</p>"+
+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+
+    [
+        new SolutionCell(0,0,'BLUE'),
+        new SolutionCell(1,0,'BLUE'),
+        new SolutionCell(2,0,'BLUE'),
+        new SolutionCell(0,1,'BLUE'),
+        new SolutionCell(1,1,'BLUE'),
+        new SolutionCell(2,1,'BLUE'),
+        new SolutionCell(0,2,'BLUE'),
+        new SolutionCell(1,2,'BLUE'),
+
+        new SolutionCell(2,2,'BLACK'),
+        new SolutionCell(3,2,'BLACK'),
+        new SolutionCell(4,2,'BLACK'),
+        new SolutionCell(2,3,'BLACK'),
+        new SolutionCell(3,3,'BLACK'),
+        new SolutionCell(4,3,'BLACK'),
+        new SolutionCell(2,4,'BLACK'),
+        new SolutionCell(3,4,'BLACK'),
+        new SolutionCell(4,4,'BLACK'),
+
+        new SolutionCell(5,4,'BLUE'),
+        new SolutionCell(6,4,'BLUE'),
+        new SolutionCell(4,5,'BLUE'),
+        new SolutionCell(5,5,'BLUE'),
+        new SolutionCell(6,5,'BLUE'),
+        new SolutionCell(4,6,'BLUE'),
+        new SolutionCell(5,6,'BLUE'),
+        new SolutionCell(6,6,'BLUE')
+    ]
+));
+
+exercises.push(new Exercise(14,17,10,
+    "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 15</h3>" +
+    "<p>Execute the following function by putting bricks in the proper cells.</p>"+
+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p>put2D (5,3) BLACK  (0,0);</p>"+
+    "<p>put2D (5,3) RED    (5,0);</p>"+
+    "<p>put2D (6,2) YELLOW (2,3);</p>"+
+
+"<hr style='border-width: 3px; border-style: inset;'>",
+
+    [
+        new SolutionCell(0,0,'BLACK'),
+        new SolutionCell(1,0,'BLACK'),
+        new SolutionCell(2,0,'BLACK'),
+        new SolutionCell(3,0,'BLACK'),
+        new SolutionCell(4,0,'BLACK'),
+        new SolutionCell(0,1,'BLACK'),
+        new SolutionCell(1,1,'BLACK'),
+        new SolutionCell(2,1,'BLACK'),
+        new SolutionCell(3,1,'BLACK'),
+        new SolutionCell(4,1,'BLACK'),
+        new SolutionCell(0,2,'BLACK'),
+        new SolutionCell(1,2,'BLACK'),
+        new SolutionCell(2,2,'BLACK'),
+        new SolutionCell(3,2,'BLACK'),
+        new SolutionCell(4,2,'BLACK'),
+
+        new SolutionCell(5,0,'RED'),
+        new SolutionCell(6,0,'RED'),
+        new SolutionCell(7,0,'RED'),
+        new SolutionCell(8,0,'RED'),
+        new SolutionCell(9,0,'RED'),
+        new SolutionCell(5,1,'RED'),
+        new SolutionCell(6,1,'RED'),
+        new SolutionCell(7,1,'RED'),
+        new SolutionCell(8,1,'RED'),
+        new SolutionCell(9,1,'RED'),
+        new SolutionCell(5,2,'RED'),
+        new SolutionCell(6,2,'RED'),
+        new SolutionCell(7,2,'RED'),
+        new SolutionCell(8,2,'RED'),
+        new SolutionCell(9,2,'RED'),
+
+        new SolutionCell(2,3,'YELLOW'),
+        new SolutionCell(3,3,'YELLOW'),
+        new SolutionCell(4,3,'YELLOW'),
+        new SolutionCell(5,3,'YELLOW'),
+        new SolutionCell(6,3,'YELLOW'),
+        new SolutionCell(7,3,'YELLOW'),
+        new SolutionCell(2,4,'YELLOW'),
+        new SolutionCell(3,4,'YELLOW'),
+        new SolutionCell(4,4,'YELLOW'),
+        new SolutionCell(5,4,'YELLOW'),
+        new SolutionCell(6,4,'YELLOW'),
+        new SolutionCell(7,4,'YELLOW')
+
+    ]
+));
+
+
 // ---------------------------------------------------------------------------------------------------------------------
 // Concept 15
 // ---------------------------------------------------------------------------------------------------------------------
