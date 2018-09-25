@@ -2228,6 +2228,522 @@ exercises.push(new Exercise(10,10,8,
         new SolutionCell(6,5,"WHITE"),
         new SolutionCell(7,5,"WHITE")]
 ));
+
+exercises.push(new Exercise(10,11,4,
+    "<h3 id = 'questionInfo'>Concept 10 Exercise 10</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p style='line-height:0.5'>fun thing () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE  (0,3);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE  (3,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x2_BLACK (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x2_RED   (2,2)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p>thing ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,'BLACK'),
+        new SolutionCell(0,1,'BLACK'),
+        new SolutionCell(1,0,'BLACK'),
+        new SolutionCell(1,1,'BLACK'),
+
+        new SolutionCell(0,3,'BLUE'),
+        new SolutionCell(3,0,'BLUE'),
+
+        new SolutionCell(2,2,'RED'),
+        new SolutionCell(3,2,'RED'),
+        new SolutionCell(2,3,'RED'),
+        new SolutionCell(3,3,'RED')
+    ]
+));
+
+exercises.push(new Exercise(10,12,7,
+    "<h3 id = 'questionInfo'>Concept 10 Exercise 11</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p style='line-height:0.5'>fun redI () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (1,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_RED (3,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_RED (2,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_RED (2,4);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (1,5);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_RED (3,5)</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun artifact () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_BLACK  (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_BLACK  (3,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_BLACK  (0,4);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_BLACK  (3,4);</p>"+
+
+    "<p style='text-indent: 4em; line-height:0.5'>redI ()</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p>artifact ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(1,1,'RED'),
+        new SolutionCell(2,1,'RED'),
+        new SolutionCell(3,1,'RED'),
+        new SolutionCell(2,2,'RED'),
+        new SolutionCell(2,3,'RED'),
+        new SolutionCell(2,4,'RED'),
+        new SolutionCell(1,5,'RED'),
+        new SolutionCell(2,5,'RED'),
+        new SolutionCell(3,5,'RED'),
+
+        new SolutionCell(0,0,'BLACK'),
+        new SolutionCell(1,0,'BLACK'),
+        new SolutionCell(0,1,'BLACK'),
+        new SolutionCell(0,2,'BLACK'),
+        new SolutionCell(1,2,'BLACK'),
+
+        new SolutionCell(0,4,'BLACK'),
+        new SolutionCell(1,4,'BLACK'),
+        new SolutionCell(0,5,'BLACK'),
+        new SolutionCell(0,6,'BLACK'),
+        new SolutionCell(1,6,'BLACK'),
+
+        new SolutionCell(3,0,'BLACK'),
+        new SolutionCell(4,0,'BLACK'),
+        new SolutionCell(4,1,'BLACK'),
+        new SolutionCell(4,2,'BLACK'),
+        new SolutionCell(3,2,'BLACK'),
+
+        new SolutionCell(3,4,'BLACK'),
+        new SolutionCell(4,4,'BLACK'),
+        new SolutionCell(4,5,'BLACK'),
+        new SolutionCell(4,6,'BLACK'),
+        new SolutionCell(3,6,'BLACK')
+    ]
+));
+
+exercises.push(new Exercise(10,13,6,
+    "<h3 id = 'questionInfo'>Concept 10 Exercise 12</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p style='line-height:0.5'>fun blackStripe () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x4_BLACK (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLACK (0,4)</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun yellowStripe () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x4_YELLOW (2,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_YELLOW (2,4)</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun redStripe () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x4_RED (4,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (4,4)</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun flagOfBelgium () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>blackStripe  ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>yellowStripe ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>redStripe    ()</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p>flagOfBelgium ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+
+        new SolutionCell(0,0,'BLACK'),
+        new SolutionCell(0,1,'BLACK'),
+        new SolutionCell(0,2,'BLACK'),
+        new SolutionCell(0,3,'BLACK'),
+        new SolutionCell(0,4,'BLACK'),
+        new SolutionCell(1,0,'BLACK'),
+        new SolutionCell(1,1,'BLACK'),
+        new SolutionCell(1,2,'BLACK'),
+        new SolutionCell(1,3,'BLACK'),
+        new SolutionCell(1,4,'BLACK'),
+
+
+        new SolutionCell(2,0,'YELLOW'),
+        new SolutionCell(2,1,'YELLOW'),
+        new SolutionCell(2,2,'YELLOW'),
+        new SolutionCell(2,3,'YELLOW'),
+        new SolutionCell(2,4,'YELLOW'),
+        new SolutionCell(3,0,'YELLOW'),
+        new SolutionCell(3,1,'YELLOW'),
+        new SolutionCell(3,2,'YELLOW'),
+        new SolutionCell(3,3,'YELLOW'),
+        new SolutionCell(3,4,'YELLOW'),
+
+
+        new SolutionCell(4,0,'RED'),
+        new SolutionCell(4,1,'RED'),
+        new SolutionCell(4,2,'RED'),
+        new SolutionCell(4,3,'RED'),
+        new SolutionCell(4,4,'RED'),
+
+        new SolutionCell(5,0,'RED'),
+        new SolutionCell(5,1,'RED'),
+        new SolutionCell(5,2,'RED'),
+        new SolutionCell(5,3,'RED'),
+        new SolutionCell(5,4,'RED')
+    ]
+));
+
+exercises.push(new Exercise(10,14,6,
+    "<h3 id = 'questionInfo'>Concept 10 Exercise 13</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p style='line-height:0.5'>fun greenColumn () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x4_GREEN (0,0)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun yellowStripe () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_YELLOW (2,2)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun redStripe () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (2,0)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun flagOfBenin () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>greenColumn  ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>yellowStripe ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>redStripe    ()</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p>flagOfBenin ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,'GREEN'),
+        new SolutionCell(0,1,'GREEN'),
+        new SolutionCell(0,2,'GREEN'),
+        new SolutionCell(0,3,'GREEN'),
+        new SolutionCell(1,0,'GREEN'),
+        new SolutionCell(1,1,'GREEN'),
+        new SolutionCell(1,2,'GREEN'),
+        new SolutionCell(1,3,'GREEN'),
+
+        new SolutionCell(2,2,'YELLOW'),
+        new SolutionCell(3,2,'YELLOW'),
+        new SolutionCell(4,2,'YELLOW'),
+        new SolutionCell(5,2,'YELLOW'),
+
+        new SolutionCell(2,3,'YELLOW'),
+        new SolutionCell(3,3,'YELLOW'),
+        new SolutionCell(4,3,'YELLOW'),
+        new SolutionCell(5,3,'YELLOW'),
+
+        new SolutionCell(2,0,'RED'),
+        new SolutionCell(3,0,'RED'),
+        new SolutionCell(4,0,'RED'),
+        new SolutionCell(5,0,'RED'),
+
+        new SolutionCell(2,1,'RED'),
+        new SolutionCell(3,1,'RED'),
+        new SolutionCell(4,1,'RED'),
+        new SolutionCell(5,1,'RED')
+    ]
+));
+
+exercises.push(new Exercise(10,15,6,
+    "<h3 id = 'questionInfo'>Concept 10 Exercise 14</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p style='line-height:0.5'>fun blackStripe () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_BLACK (0,4);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_BLACK (3,4)</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun redStripe () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_RED (0,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_RED (3,2)</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun yellowStripe () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_YELLOW (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_YELLOW (3,0)</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun flagOfGermany () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>blackStripe  ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>redStripe    ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>yellowStripe ()</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p>flagOfGermany ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,'YELLOW'),
+        new SolutionCell(1,0,'YELLOW'),
+        new SolutionCell(2,0,'YELLOW'),
+        new SolutionCell(3,0,'YELLOW'),
+        new SolutionCell(4,0,'YELLOW'),
+        new SolutionCell(5,0,'YELLOW'),
+
+        new SolutionCell(0,1,'YELLOW'),
+        new SolutionCell(1,1,'YELLOW'),
+        new SolutionCell(2,1,'YELLOW'),
+        new SolutionCell(3,1,'YELLOW'),
+        new SolutionCell(4,1,'YELLOW'),
+        new SolutionCell(5,1,'YELLOW'),
+
+        new SolutionCell(0,2,'RED'),
+        new SolutionCell(1,2,'RED'),
+        new SolutionCell(2,2,'RED'),
+        new SolutionCell(3,2,'RED'),
+        new SolutionCell(4,2,'RED'),
+        new SolutionCell(5,2,'RED'),
+
+        new SolutionCell(0,3,'RED'),
+        new SolutionCell(1,3,'RED'),
+        new SolutionCell(2,3,'RED'),
+        new SolutionCell(3,3,'RED'),
+        new SolutionCell(4,3,'RED'),
+        new SolutionCell(5,3,'RED'),
+
+        new SolutionCell(0,4,'BLACK'),
+        new SolutionCell(1,4,'BLACK'),
+        new SolutionCell(2,4,'BLACK'),
+        new SolutionCell(3,4,'BLACK'),
+        new SolutionCell(4,4,'BLACK'),
+        new SolutionCell(5,4,'BLACK'),
+
+        new SolutionCell(0,5,'BLACK'),
+        new SolutionCell(1,5,'BLACK'),
+        new SolutionCell(2,5,'BLACK'),
+        new SolutionCell(3,5,'BLACK'),
+        new SolutionCell(4,5,'BLACK'),
+        new SolutionCell(5,5,'BLACK')
+    ]
+));
+
+exercises.push(new Exercise(10,16,4,
+    "<h3 id = 'questionInfo'>Concept 10 Exercise 15</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p style='line-height:0.5'>fun redStripe () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (0,3);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (2,3)</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun blueStripe () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (0,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (2,2)</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun yellowStripe () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_YELLOW (0,1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_YELLOW (2,1)</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun greenStripe () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_GREEN (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_GREEN (2,0)</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun flagOfMaritius () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>redStripe    ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>blueStripe   ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>yellowStripe ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>greenStripe  ()</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p>flagOfMaritius ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,3,'RED'),
+        new SolutionCell(1,3,'RED'),
+        new SolutionCell(2,3,'RED'),
+        new SolutionCell(3,3,'RED'),
+
+        new SolutionCell(0,2,'BLUE'),
+        new SolutionCell(1,2,'BLUE'),
+        new SolutionCell(2,2,'BLUE'),
+        new SolutionCell(3,2,'BLUE'),
+
+        new SolutionCell(0,1,'YELLOW'),
+        new SolutionCell(1,1,'YELLOW'),
+        new SolutionCell(2,1,'YELLOW'),
+        new SolutionCell(3,1,'YELLOW'),
+
+        new SolutionCell(0,0,'GREEN'),
+        new SolutionCell(1,0,'GREEN'),
+        new SolutionCell(2,0,'GREEN'),
+        new SolutionCell(3,0,'GREEN')
+    ]
+));
+
+exercises.push(new Exercise(10,17,9,
+    "<h3 id = 'questionInfo'>Concept 10 Exercise 16</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p style='line-height:0.5'>fun redPart () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x2_RED (0,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x2_RED (0,5);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (5,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (5,5)</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun whiteCross () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_WHITE (0,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_WHITE (2,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_WHITE (3,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_WHITE (4,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_WHITE (6,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_WHITE (7,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_WHITE (2,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_WHITE (2,5)</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun blueCross () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (0,3);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (2,3);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (4,3);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (6,3);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE (8,3);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_BLUE (3,0);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_BLUE (3,2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_BLUE (3,4);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE (3,6)</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun flagOfNorway () =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>redPart    ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>whiteCross ();</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>blueCross  ()</p>"+
+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p>flagOfNorway ();</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,'RED'),
+        new SolutionCell(1,0,'RED'),
+        new SolutionCell(0,1,'RED'),
+        new SolutionCell(1,1,'RED'),
+
+        new SolutionCell(0,5,'RED'),
+        new SolutionCell(1,5,'RED'),
+        new SolutionCell(0,6,'RED'),
+        new SolutionCell(1,6,'RED'),
+
+
+        new SolutionCell(5,0,'RED'),
+        new SolutionCell(6,0,'RED'),
+        new SolutionCell(7,0,'RED'),
+        new SolutionCell(8,0,'RED'),
+
+        new SolutionCell(5,1,'RED'),
+        new SolutionCell(6,1,'RED'),
+        new SolutionCell(7,1,'RED'),
+        new SolutionCell(8,1,'RED'),
+
+        new SolutionCell(5,5,'RED'),
+        new SolutionCell(6,5,'RED'),
+        new SolutionCell(7,5,'RED'),
+        new SolutionCell(8,5,'RED'),
+
+        new SolutionCell(5,6,'RED'),
+        new SolutionCell(6,6,'RED'),
+        new SolutionCell(7,6,'RED'),
+        new SolutionCell(8,6,'RED'),
+
+
+        new SolutionCell(0,2,'WHITE'),
+        new SolutionCell(1,2,'WHITE'),
+        new SolutionCell(2,2,'WHITE'),
+        new SolutionCell(4,2,'WHITE'),
+        new SolutionCell(5,2,'WHITE'),
+        new SolutionCell(6,2,'WHITE'),
+        new SolutionCell(7,2,'WHITE'),
+        new SolutionCell(8,2,'WHITE'),
+
+        new SolutionCell(0,4,'WHITE'),
+        new SolutionCell(1,4,'WHITE'),
+        new SolutionCell(2,4,'WHITE'),
+        new SolutionCell(4,4,'WHITE'),
+        new SolutionCell(5,4,'WHITE'),
+        new SolutionCell(6,4,'WHITE'),
+        new SolutionCell(7,4,'WHITE'),
+        new SolutionCell(8,4,'WHITE'),
+
+        new SolutionCell(2,0,'WHITE'),
+        new SolutionCell(2,1,'WHITE'),
+        new SolutionCell(2,5,'WHITE'),
+        new SolutionCell(2,6,'WHITE'),
+
+        new SolutionCell(4,0,'WHITE'),
+        new SolutionCell(4,1,'WHITE'),
+        new SolutionCell(4,5,'WHITE'),
+        new SolutionCell(4,6,'WHITE'),
+
+        new SolutionCell(0,3,'BLUE'),
+        new SolutionCell(1,3,'BLUE'),
+        new SolutionCell(2,3,'BLUE'),
+        new SolutionCell(3,3,'BLUE'),
+        new SolutionCell(4,3,'BLUE'),
+        new SolutionCell(5,3,'BLUE'),
+        new SolutionCell(6,3,'BLUE'),
+        new SolutionCell(7,3,'BLUE'),
+        new SolutionCell(8,3,'BLUE'),
+
+        new SolutionCell(3,0,'BLUE'),
+        new SolutionCell(3,1,'BLUE'),
+        new SolutionCell(3,2,'BLUE'),
+
+        new SolutionCell(3,4,'BLUE'),
+        new SolutionCell(3,5,'BLUE'),
+        new SolutionCell(3,6,'BLUE')
+    ]
+));
+
 // ---------------------------------------------------------------------------------------------------------------------
 // Concept 11
 // ---------------------------------------------------------------------------------------------------------------------

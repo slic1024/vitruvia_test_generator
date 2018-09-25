@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a19b304-1a93-466b-b991-045acfd1c7f8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vitruvia_New-master/javascript/vitruvia_concepts.js" beforeDir="false" afterPath="$PROJECT_DIR$/vitruvia_New-master/javascript/vitruvia_concepts.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,10 +16,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vitruvia_New-master/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2516">
+            <state relative-caret-position="170">
               <caret line="148" selection-start-line="148" selection-end-line="148" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -30,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vitruvia_concepts.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vitruvia_concepts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vitruvia_New-master/javascript/vitruvia_concepts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="2399" column="37" lean-forward="true" selection-start-line="2399" selection-start-column="37" selection-end-line="2399" selection-end-column="37" />
+            <state relative-caret-position="40783">
+              <caret line="2399" column="37" selection-start-line="2399" selection-start-column="37" selection-end-line="2399" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -141,8 +140,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1988" />
-    <option name="y" value="140" />
+    <option name="x" value="1630" />
+    <option name="y" value="104" />
     <option name="width" value="1378" />
     <option name="height" value="1118" />
   </component>
@@ -152,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -187,13 +185,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vitruvia_New" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -306,27 +305,27 @@
       <workItem from="1535055964391" duration="118000" />
       <workItem from="1535660971830" duration="842000" />
       <workItem from="1536150159557" duration="216000" />
-      <workItem from="1536955627871" duration="12000" />
+      <workItem from="1536955627871" duration="176000" />
+      <workItem from="1537886030233" duration="23000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36632000" />
+    <option name="totallyTimeSpent" value="36819000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1988" y="140" width="1378" height="1118" extended-state="0" />
-    <editor active="true" />
+    <frame x="1630" y="104" width="1378" height="1118" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24925373" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20385395" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -338,19 +337,19 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24981578" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="5" />
-      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="4" />
       <window_info id="Favorites" order="0" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -731,21 +730,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vitruvia_New-master/javascript/vitruvia_concepts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40783">
+          <caret line="2399" column="37" selection-start-line="2399" selection-start-column="37" selection-end-line="2399" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vitruvia_New-master/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2516">
+        <state relative-caret-position="170">
           <caret line="148" selection-start-line="148" selection-end-line="148" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vitruvia_New-master/javascript/vitruvia_concepts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="2399" column="37" lean-forward="true" selection-start-line="2399" selection-start-column="37" selection-end-line="2399" selection-end-column="37" />
         </state>
       </provider>
     </entry>
