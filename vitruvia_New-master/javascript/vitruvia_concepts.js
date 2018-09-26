@@ -3181,10 +3181,10 @@ exercises.push(new Exercise(11,13,6,
         new SolutionCell(5,5,"RED")]
 ));
 // ---------------------------------------------------------------------------------------------------------------------
-//Concept 12
+//Concept 12a
 // ---------------------------------------------------------------------------------------------------------------------
 exercises.push(new Exercise(12,1,5,
-    "<h3 id = 'questionInfo'>Concept 12 Demo 1</h3>" +
+    "<h3 id = 'questionInfo'>Concept 12a Demo 1</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p style='line-height:0.8'>fun myPut (x,z) = put2D_4x2_RED (x,z);</p>"+
@@ -3200,7 +3200,7 @@ exercises.push(new Exercise(12,1,5,
         new SolutionCell(3,2,"RED")]
 ));
 exercises.push(new Exercise(12,2,5,
-    "<h3 id = 'questionInfo'>Concept 12 Demo 2</h3>" +
+    "<h3 id = 'questionInfo'>Concept 12a Demo 2</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p style='line-height:0.5'>fun myPut (x,z) =</p>"+
@@ -3221,7 +3221,7 @@ exercises.push(new Exercise(12,2,5,
         new SolutionCell(3,3,"GREEN")]
 ));
 exercises.push(new Exercise(12,3,5,
-    "<h3 id = 'questionInfo'>Concept 12 Demo 3</h3>" +
+    "<h3 id = 'questionInfo'>Concept 12a Demo 3</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p style='line-height:0.5'>fun design1 () =</p>"+
@@ -3255,7 +3255,7 @@ exercises.push(new Exercise(12,3,5,
         new SolutionCell(4,4,"RED")]
 ));
 exercises.push(new Exercise(12,4,6,
-    "<h3 id = 'questionInfo'>Concept 12 Demo 4</h3>" +
+    "<h3 id = 'questionInfo'>Concept 12a Demo 4</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p style='line-height:0.5'>fun put2D_6x2_RED (x,z) =</p>"+
@@ -3292,7 +3292,7 @@ exercises.push(new Exercise(12,4,6,
         new SolutionCell(5,4,"RED")]
 ));
 exercises.push(new Exercise(12,5,6,
-    "<h3 id = 'questionInfo'>Concept 12 Demo 5</h3>" +
+    "<h3 id = 'questionInfo'>Concept 12a Demo 5</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p style='line-height:0.5'>fun put2D_6x2_RED_on_Row_Zero x =</p>"+
@@ -3316,7 +3316,7 @@ exercises.push(new Exercise(12,5,6,
         new SolutionCell(5,1,"RED")]
 ));
 exercises.push(new Exercise(12,6,6,
-    "<h3 id = 'questionInfo'>Concept 12 Exercise 1</h3>" +
+    "<h3 id = 'questionInfo'>Concept 12a Exercise 1</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p style='line-height:0.5'>fun mysteryPiece (x,z) =</p>"+
@@ -3345,7 +3345,7 @@ exercises.push(new Exercise(12,6,6,
         new SolutionCell(3,5,"BLUE")]
 ));
 exercises.push(new Exercise(12,7,7,
-    "<h3 id = 'questionInfo'>Concept 12 Exercise 2</h3>" +
+    "<h3 id = 'questionInfo'>Concept 12a Exercise 2</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p style='line-height:0.5'>fun mysteryPiece (x,z) =</p>"+
@@ -3370,7 +3370,7 @@ exercises.push(new Exercise(12,7,7,
         new SolutionCell(6,1,"RED")]
 ));
 exercises.push(new Exercise(12,8,5,
-    "<h3 id = 'questionInfo'>Concept 12 Exercise 3</h3>" +
+    "<h3 id = 'questionInfo'>Concept 12a Exercise 3</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p style='line-height:0.5'>fun mystery v =</p>"+
@@ -3393,7 +3393,7 @@ exercises.push(new Exercise(12,8,5,
         new SolutionCell(4,4,"GREEN")]
 ));
 exercises.push(new Exercise(12,9,5,
-    "<h3 id = 'questionInfo'>Concept 12 Exercise 4</h3>" +
+    "<h3 id = 'questionInfo'>Concept 12a Exercise 4</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p style='line-height:0.5'>fun mystery v =</p>"+
@@ -3416,7 +3416,7 @@ exercises.push(new Exercise(12,9,5,
         new SolutionCell(2,3,"BLUE")]
 ));
 exercises.push(new Exercise(12,10,7,
-    "<h3 id = 'questionInfo'>Concept 12 Exercise 5</h3>" +
+    "<h3 id = 'questionInfo'>Concept 12a Exercise 5</h3>" +
     "<p>Execute the following program by placing bricks at the appropriate locations.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p style='line-height:0.5'>fun f v =</p>"+
@@ -3455,10 +3455,925 @@ exercises.push(new Exercise(12,10,7,
         new SolutionCell(5,3,"RED"),
         new SolutionCell(6,3,"RED")]
 ));
+
+
+// ---------------------------------------------------------------------------------------------------------------------
+//Concept 12b
+// ---------------------------------------------------------------------------------------------------------------------
+
+
+exercises.push(new Exercise(13,1,8,
+    "<h3 id = 'questionInfo'>Concept 12b Demo 1</h3>" +
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun redBackground (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_RED (x  ,z  );</p>"+
+         "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_RED (x  ,z+3);</p>"+
+         "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (x+4,z  );</p>"+
+         "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (x+4,z+3)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p>fun whiteHorizontalStripe (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_WHITE (x  ,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_WHITE (x+2,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_WHITE (x+4,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_WHITE (x+6,z)</p>"+
+    "<p style='text-indent: 2em;'> )</p>"+
+
+    "<p> fun whiteVerticalStripe (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_WHITE (x,z+3);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_WHITE (x,z  )</p>"+
+    "<p style='text-indent: 2em;'>  );</p>"+
+
+    "<p>(* this can be further structured *)</p>"+
+
+    "<p style='line-height:0.5'>redBackground (0,0);</p>"+
+    "<p style='line-height:0.5'>whiteHorizontalStripe (0,2);</p>"+
+    "<p style='line-height:0.5'>whiteVerticalStripe (3,0);  </p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(3,0,"WHITE"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(6,0,"RED"),
+        new SolutionCell(7,0,"RED"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(3,1,"WHITE"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(6,1,"RED"),
+        new SolutionCell(7,1,"RED"),
+        new SolutionCell(0,2,"WHITE"),
+        new SolutionCell(1,2,"WHITE"),
+        new SolutionCell(2,2,"WHITE"),
+        new SolutionCell(3,2,"WHITE"),
+        new SolutionCell(4,2,"WHITE"),
+        new SolutionCell(5,2,"WHITE"),
+        new SolutionCell(6,2,"WHITE"),
+        new SolutionCell(7,2,"WHITE"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(2,3,"RED"),
+        new SolutionCell(3,3,"WHITE"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(5,3,"RED"),
+        new SolutionCell(6,3,"RED"),
+        new SolutionCell(7,3,"RED"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(1,4,"RED"),
+        new SolutionCell(2,4,"RED"),
+        new SolutionCell(3,4,"WHITE"),
+        new SolutionCell(4,4,"RED"),
+        new SolutionCell(5,4,"RED"),
+        new SolutionCell(6,4,"RED"),
+        new SolutionCell(7,4,"RED")]
+));
+exercises.push(new Exercise(13,2,5,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 1</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p style='line-height:0.5'>fun f (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+          "<p style='text-indent: 4em; line-height:0.5'>put2D_2x2_GREEN (x,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>f (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(0,1,"GREEN")]
+));
+exercises.push(new Exercise(13,3,6,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 2</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun france (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x4_BLUE  (x  ,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x4_WHITE (x+2,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x4_RED   (x+4,z) (* note there is no semicolon *)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>france (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"BLUE"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(1,0,"BLUE"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,0,"WHITE"),
+        new SolutionCell(2,1,"WHITE"),
+        new SolutionCell(2,2,"WHITE"),
+        new SolutionCell(2,3,"WHITE"),
+        new SolutionCell(3,0,"WHITE"),
+        new SolutionCell(3,1,"WHITE"),
+        new SolutionCell(3,2,"WHITE"),
+        new SolutionCell(3,3,"WHITE"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(4,2,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(5,2,"RED"),
+        new SolutionCell(5,3,"RED")]
+));
+exercises.push(new Exercise(13,4,5,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 3</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun yellow(x,z) = put2D_2x2_YELLOW (x,z);</p>"+
+    "<p>fun blue(x,z) = put2D_2x2_BLUE (x,z);</p>"+
+    "<p>fun thing(x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>yellow (x,z);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>blue (x+1,z+1)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p style='line-height:0.5'>thing (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(0,0,"YELLOW"),
+        new SolutionCell(0,1,"YELLOW"),
+        new SolutionCell(1,0,"YELLOW")]
+));
+exercises.push(new Exercise(13,5,5,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 4</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun yellow(x,z) = put2D_2x2_YELLOW (x,z);</p>"+
+    "<p>fun blue(x,z) = put2D_2x2_BLUE (x,z);</p>"+
+    "<p>fun thing (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>blue (x+1,z+1);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>yellow (x,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p style='line-height:0.5'>thing (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(0,0,"YELLOW"),
+        new SolutionCell(0,1,"YELLOW"),
+        new SolutionCell(1,1,"YELLOW"),
+        new SolutionCell(1,0,"YELLOW"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,2,"BLUE")]
+));
+exercises.push(new Exercise(13,6,5,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 5</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun yellow (x,z) = put2D_2x2_YELLOW (x,z);</p>"+
+    "<p>fun blue (x,z) = put2D_2x2_BLUE (x,z);</p>"+
+    "<p>fun red (x,z) = put2D_2x2_RED(x,z);</p>"+
+    "<p>fun thing (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em;line-height:0.5'>blue (x,z+1);</p>"+
+    "<p style='text-indent: 4em;line-height:0.5'>red (x+1,z+1);</p>"+
+    "<p style='text-indent: 4em;line-height:0.5'>yellow (x,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p style='line-height:0.5'>thing (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(0,0,"YELLOW"),
+        new SolutionCell(0,1,"YELLOW"),
+        new SolutionCell(1,1,"YELLOW"),
+        new SolutionCell(1,0,"YELLOW"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(1,2,"RED"),
+        new SolutionCell(2,2,"RED"),
+        new SolutionCell(0,2,"BLUE")]
+));
+exercises.push(new Exercise(13,7,5,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 6</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun gray (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_GRAY(x,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_GRAY(x,z+2)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun blue (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE(x  ,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x2_BLUE(x+1,z+1);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE(x+3,z+3)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun grayAndBlue (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>gray(x,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>blue(x,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>grayAndBlue (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(0,0,"BLUE"),
+        new SolutionCell(0,1,"GRAY"),
+        new SolutionCell(0,2,"GRAY"),
+        new SolutionCell(0,3,"GRAY"),
+        new SolutionCell(1,0,"GRAY"),
+        new SolutionCell(1,1,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(1,3,"GRAY"),
+        new SolutionCell(2,0,"GRAY"),
+        new SolutionCell(2,1,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(2,3,"GRAY"),
+        new SolutionCell(3,0,"GRAY"),
+        new SolutionCell(3,1,"GRAY"),
+        new SolutionCell(3,2,"GRAY"),
+        new SolutionCell(3,3,"BLUE")]
+));
+exercises.push(new Exercise(13,8,5,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 7</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style='line-height:0.5'>fun red (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (x  ,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_RED (x+4,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (x  ,z+2);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_RED (x+4,z+2);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (x  ,z+4);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (x+2,z+4);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_RED (x+4,z+4)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun white (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_WHITE (x+1,z+1);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_WHITE (x+1,z+2);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_WHITE (x  ,z+1);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_WHITE (x+1,z  )</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun flag (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>red   (x  ,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>white (x+1,z+1)</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>);</p>"+
+    "<p>flag (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(0,2,"RED"),
+        new SolutionCell(0,3,"RED"),
+        new SolutionCell(0,4,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(1,2,"WHITE"),
+        new SolutionCell(1,3,"RED"),
+        new SolutionCell(1,4,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(2,1,"WHITE"),
+        new SolutionCell(2,2,"WHITE"),
+        new SolutionCell(2,3,"WHITE"),
+        new SolutionCell(2,4,"RED"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(3,2,"WHITE"),
+        new SolutionCell(3,3,"RED"),
+        new SolutionCell(3,4,"RED"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(4,2,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(4,4,"RED")]
+));
+exercises.push(new Exercise(13,9,6,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 8</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p>fun red (x,z)   = put2D_2x4_RED (x,z);</p>"+
+    "<p>fun white (x,z) = put2D_2x4_WHITE (x,z);</p>"+
+    "<p>fun green (x,z) = put2D_2x4_GREEN (x,z);</p>"+
+    "<p style='line-height:1.0'>fun flagOfItaly (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>green (x,z);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>white (x+2,z);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>red (x+4,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+    "<p>flagOfItaly (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(0,0,"GREEN"),
+        new SolutionCell(0,1,"GREEN"),
+        new SolutionCell(0,2,"GREEN"),
+        new SolutionCell(0,3,"GREEN"),
+        new SolutionCell(1,0,"GREEN"),
+        new SolutionCell(1,1,"GREEN"),
+        new SolutionCell(1,2,"GREEN"),
+        new SolutionCell(1,3,"GREEN"),
+        new SolutionCell(2,0,"WHITE"),
+        new SolutionCell(2,1,"WHITE"),
+        new SolutionCell(2,2,"WHITE"),
+        new SolutionCell(2,3,"WHITE"),
+        new SolutionCell(3,0,"WHITE"),
+        new SolutionCell(3,1,"WHITE"),
+        new SolutionCell(3,2,"WHITE"),
+        new SolutionCell(3,3,"WHITE"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(4,2,"RED"),
+        new SolutionCell(4,3,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(5,2,"RED"),
+        new SolutionCell(5,3,"RED")]
+));
+exercises.push(new Exercise(13,10,8,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 9</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+    "<p style=' line-height:0.5'>fun horizontalRed (x,z)   =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (x  ,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (x+4,z)</p>"+
+"<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style=' line-height:0.5'>fun horizontalWhite (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_WHITE (x  ,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_WHITE (x+4,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style=' line-height:0.5'>fun horizontalBlue (x,z)  =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_BLUE (x  ,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_BLUE (x+4,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style=' line-height:0.5'>fun flagOfRussia (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>horizontalWhite (x,z+4);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>horizontalBlue  (x,z+2);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>horizontalRed   (x,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style=' line-height:0.5'>flagOfRussia (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [   new SolutionCell(0,0,"RED"),
+        new SolutionCell(1,0,"RED"),
+        new SolutionCell(2,0,"RED"),
+        new SolutionCell(3,0,"RED"),
+        new SolutionCell(4,0,"RED"),
+        new SolutionCell(5,0,"RED"),
+        new SolutionCell(6,0,"RED"),
+        new SolutionCell(7,0,"RED"),
+        new SolutionCell(0,1,"RED"),
+        new SolutionCell(1,1,"RED"),
+        new SolutionCell(2,1,"RED"),
+        new SolutionCell(3,1,"RED"),
+        new SolutionCell(4,1,"RED"),
+        new SolutionCell(5,1,"RED"),
+        new SolutionCell(6,1,"RED"),
+        new SolutionCell(7,1,"RED"),
+        new SolutionCell(0,2,"BLUE"),
+        new SolutionCell(1,2,"BLUE"),
+        new SolutionCell(2,2,"BLUE"),
+        new SolutionCell(3,2,"BLUE"),
+        new SolutionCell(4,2,"BLUE"),
+        new SolutionCell(5,2,"BLUE"),
+        new SolutionCell(6,2,"BLUE"),
+        new SolutionCell(7,2,"BLUE"),
+        new SolutionCell(0,3,"BLUE"),
+        new SolutionCell(1,3,"BLUE"),
+        new SolutionCell(2,3,"BLUE"),
+        new SolutionCell(3,3,"BLUE"),
+        new SolutionCell(4,3,"BLUE"),
+        new SolutionCell(5,3,"BLUE"),
+        new SolutionCell(6,3,"BLUE"),
+        new SolutionCell(7,3,"BLUE"),
+        new SolutionCell(0,4,"WHITE"),
+        new SolutionCell(1,4,"WHITE"),
+        new SolutionCell(2,4,"WHITE"),
+        new SolutionCell(3,4,"WHITE"),
+        new SolutionCell(4,4,"WHITE"),
+        new SolutionCell(5,4,"WHITE"),
+        new SolutionCell(6,4,"WHITE"),
+        new SolutionCell(7,4,"WHITE"),
+        new SolutionCell(0,5,"WHITE"),
+        new SolutionCell(1,5,"WHITE"),
+        new SolutionCell(2,5,"WHITE"),
+        new SolutionCell(3,5,"WHITE"),
+        new SolutionCell(4,5,"WHITE"),
+        new SolutionCell(5,5,"WHITE"),
+        new SolutionCell(6,5,"WHITE"),
+        new SolutionCell(7,5,"WHITE")]
+));
+
+exercises.push(new Exercise(13,11,4,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 10</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p style='line-height:0.5'>fun thing (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE  (x  ,z+3);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE  (x+3,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x2_BLACK (x  ,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x2_RED   (x+2,z+2)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p>thing (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,'BLACK'),
+        new SolutionCell(0,1,'BLACK'),
+        new SolutionCell(1,0,'BLACK'),
+        new SolutionCell(1,1,'BLACK'),
+
+        new SolutionCell(0,3,'BLUE'),
+        new SolutionCell(3,0,'BLUE'),
+
+        new SolutionCell(2,2,'RED'),
+        new SolutionCell(3,2,'RED'),
+        new SolutionCell(2,3,'RED'),
+        new SolutionCell(3,3,'RED')
+    ]
+));
+
+exercises.push(new Exercise(13,12,7,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 11</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p style='line-height:0.5'>fun redI (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (x  ,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_RED (x+2,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_RED (x+1,z+1);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_RED (x+1,z+3);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (x  ,z+4);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_RED (x+2,z+4)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun artifact (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_BLACK  (x  ,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_BLACK  (x+3,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_BLACK  (x  ,z+4);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_BLACK  (x+3,z+4);</p>"+
+
+        "<p style='text-indent: 4em; line-height:0.5'>redI (x+1,z+1)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p>artifact (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(1,1,'RED'),
+        new SolutionCell(2,1,'RED'),
+        new SolutionCell(3,1,'RED'),
+        new SolutionCell(2,2,'RED'),
+        new SolutionCell(2,3,'RED'),
+        new SolutionCell(2,4,'RED'),
+        new SolutionCell(1,5,'RED'),
+        new SolutionCell(2,5,'RED'),
+        new SolutionCell(3,5,'RED'),
+
+        new SolutionCell(0,0,'BLACK'),
+        new SolutionCell(1,0,'BLACK'),
+        new SolutionCell(0,1,'BLACK'),
+        new SolutionCell(0,2,'BLACK'),
+        new SolutionCell(1,2,'BLACK'),
+
+        new SolutionCell(0,4,'BLACK'),
+        new SolutionCell(1,4,'BLACK'),
+        new SolutionCell(0,5,'BLACK'),
+        new SolutionCell(0,6,'BLACK'),
+        new SolutionCell(1,6,'BLACK'),
+
+        new SolutionCell(3,0,'BLACK'),
+        new SolutionCell(4,0,'BLACK'),
+        new SolutionCell(4,1,'BLACK'),
+        new SolutionCell(4,2,'BLACK'),
+        new SolutionCell(3,2,'BLACK'),
+
+        new SolutionCell(3,4,'BLACK'),
+        new SolutionCell(4,4,'BLACK'),
+        new SolutionCell(4,5,'BLACK'),
+        new SolutionCell(4,6,'BLACK'),
+        new SolutionCell(3,6,'BLACK')
+    ]
+));
+
+exercises.push(new Exercise(13,13,6,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 12</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p style='line-height:0.5'>fun blackStripe (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x4_BLACK (x,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLACK (x,z+4)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun yellowStripe (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>    put2D_2x4_YELLOW (x,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_YELLOW (x,z+4)</p>"+
+"<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun redStripe (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x4_RED (x,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (x,z+4)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun flagOfBelgium (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>blackStripe  (x,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>yellowStripe (x+2,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>redStripe    (x+4,z)</p>"+
+"<p style='text-indent: 2em;'>);</p>"+
+
+    "<p>flagOfBelgium (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+
+        new SolutionCell(0,0,'BLACK'),
+        new SolutionCell(0,1,'BLACK'),
+        new SolutionCell(0,2,'BLACK'),
+        new SolutionCell(0,3,'BLACK'),
+        new SolutionCell(0,4,'BLACK'),
+        new SolutionCell(1,0,'BLACK'),
+        new SolutionCell(1,1,'BLACK'),
+        new SolutionCell(1,2,'BLACK'),
+        new SolutionCell(1,3,'BLACK'),
+        new SolutionCell(1,4,'BLACK'),
+
+
+        new SolutionCell(2,0,'YELLOW'),
+        new SolutionCell(2,1,'YELLOW'),
+        new SolutionCell(2,2,'YELLOW'),
+        new SolutionCell(2,3,'YELLOW'),
+        new SolutionCell(2,4,'YELLOW'),
+        new SolutionCell(3,0,'YELLOW'),
+        new SolutionCell(3,1,'YELLOW'),
+        new SolutionCell(3,2,'YELLOW'),
+        new SolutionCell(3,3,'YELLOW'),
+        new SolutionCell(3,4,'YELLOW'),
+
+
+        new SolutionCell(4,0,'RED'),
+        new SolutionCell(4,1,'RED'),
+        new SolutionCell(4,2,'RED'),
+        new SolutionCell(4,3,'RED'),
+        new SolutionCell(4,4,'RED'),
+
+        new SolutionCell(5,0,'RED'),
+        new SolutionCell(5,1,'RED'),
+        new SolutionCell(5,2,'RED'),
+        new SolutionCell(5,3,'RED'),
+        new SolutionCell(5,4,'RED')
+    ]
+));
+
+exercises.push(new Exercise(13,14,6,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 13</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p style='line-height:0.5'>fun greenColumn (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_2x4_GREEN (x,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun yellowStripe (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_YELLOW (x,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun redStripe (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (x,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun flagOfBenin (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>greenColumn  (x,z);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>yellowStripe (x+2,z+2);</p>"+
+    "<p style='text-indent: 4em; line-height:0.5'>redStripe    (x+2,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p>flagOfBenin (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,'GREEN'),
+        new SolutionCell(0,1,'GREEN'),
+        new SolutionCell(0,2,'GREEN'),
+        new SolutionCell(0,3,'GREEN'),
+        new SolutionCell(1,0,'GREEN'),
+        new SolutionCell(1,1,'GREEN'),
+        new SolutionCell(1,2,'GREEN'),
+        new SolutionCell(1,3,'GREEN'),
+
+        new SolutionCell(2,2,'YELLOW'),
+        new SolutionCell(3,2,'YELLOW'),
+        new SolutionCell(4,2,'YELLOW'),
+        new SolutionCell(5,2,'YELLOW'),
+
+        new SolutionCell(2,3,'YELLOW'),
+        new SolutionCell(3,3,'YELLOW'),
+        new SolutionCell(4,3,'YELLOW'),
+        new SolutionCell(5,3,'YELLOW'),
+
+        new SolutionCell(2,0,'RED'),
+        new SolutionCell(3,0,'RED'),
+        new SolutionCell(4,0,'RED'),
+        new SolutionCell(5,0,'RED'),
+
+        new SolutionCell(2,1,'RED'),
+        new SolutionCell(3,1,'RED'),
+        new SolutionCell(4,1,'RED'),
+        new SolutionCell(5,1,'RED')
+    ]
+));
+
+exercises.push(new Exercise(13,15,6,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 14</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p style='line-height:0.5'>fun blackStripe (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_BLACK (x  ,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_BLACK (x+3,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun redStripe (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_RED (x  ,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_RED (x+3,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun yellowStripe (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_YELLOW (x  ,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_YELLOW (x+3,z  )</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun flagOfGermany (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>blackStripe  (x,z+4);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>redStripe    (x,z+2);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>yellowStripe (x,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p>flagOfGermany (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,'YELLOW'),
+        new SolutionCell(1,0,'YELLOW'),
+        new SolutionCell(2,0,'YELLOW'),
+        new SolutionCell(3,0,'YELLOW'),
+        new SolutionCell(4,0,'YELLOW'),
+        new SolutionCell(5,0,'YELLOW'),
+
+        new SolutionCell(0,1,'YELLOW'),
+        new SolutionCell(1,1,'YELLOW'),
+        new SolutionCell(2,1,'YELLOW'),
+        new SolutionCell(3,1,'YELLOW'),
+        new SolutionCell(4,1,'YELLOW'),
+        new SolutionCell(5,1,'YELLOW'),
+
+        new SolutionCell(0,2,'RED'),
+        new SolutionCell(1,2,'RED'),
+        new SolutionCell(2,2,'RED'),
+        new SolutionCell(3,2,'RED'),
+        new SolutionCell(4,2,'RED'),
+        new SolutionCell(5,2,'RED'),
+
+        new SolutionCell(0,3,'RED'),
+        new SolutionCell(1,3,'RED'),
+        new SolutionCell(2,3,'RED'),
+        new SolutionCell(3,3,'RED'),
+        new SolutionCell(4,3,'RED'),
+        new SolutionCell(5,3,'RED'),
+
+        new SolutionCell(0,4,'BLACK'),
+        new SolutionCell(1,4,'BLACK'),
+        new SolutionCell(2,4,'BLACK'),
+        new SolutionCell(3,4,'BLACK'),
+        new SolutionCell(4,4,'BLACK'),
+        new SolutionCell(5,4,'BLACK'),
+
+        new SolutionCell(0,5,'BLACK'),
+        new SolutionCell(1,5,'BLACK'),
+        new SolutionCell(2,5,'BLACK'),
+        new SolutionCell(3,5,'BLACK'),
+        new SolutionCell(4,5,'BLACK'),
+        new SolutionCell(5,5,'BLACK')
+    ]
+));
+
+exercises.push(new Exercise(13,16,4,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 15</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p style='line-height:0.5'>fun redStripe (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (x  ,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_RED (x+2,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun blueStripe (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (x  ,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (x+2,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun yellowStripe (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_YELLOW (x  ,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_YELLOW (x+2,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun greenStripe (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_GREEN (x  ,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_GREEN (x+2,z  )</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun flagOfMaritius (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>redStripe    (x,z+3);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>blueStripe   (x,z+2);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>yellowStripe (x,z+1);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>greenStripe  (x,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p>flagOfMaritius (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,3,'RED'),
+        new SolutionCell(1,3,'RED'),
+        new SolutionCell(2,3,'RED'),
+        new SolutionCell(3,3,'RED'),
+
+        new SolutionCell(0,2,'BLUE'),
+        new SolutionCell(1,2,'BLUE'),
+        new SolutionCell(2,2,'BLUE'),
+        new SolutionCell(3,2,'BLUE'),
+
+        new SolutionCell(0,1,'YELLOW'),
+        new SolutionCell(1,1,'YELLOW'),
+        new SolutionCell(2,1,'YELLOW'),
+        new SolutionCell(3,1,'YELLOW'),
+
+        new SolutionCell(0,0,'GREEN'),
+        new SolutionCell(1,0,'GREEN'),
+        new SolutionCell(2,0,'GREEN'),
+        new SolutionCell(3,0,'GREEN')
+    ]
+));
+
+exercises.push(new Exercise(13,17,9,
+    "<h3 id = 'questionInfo'>Concept 12b Exercise 16</h3>" +
+    "<p>Evaluate the following program.</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>"+
+
+    "<p style='line-height:0.5'>fun redPart (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x2_RED (x  ,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x2_RED (x  ,z+5);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (x+5,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_4x2_RED (x+5,z+5)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun whiteCross (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_WHITE (x  ,z+2);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_WHITE (x+2,z+2);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_WHITE (x+3,z+2);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_WHITE (x+4,z+2);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_WHITE (x+6,z+2);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x3_WHITE (x+7,z+2);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_WHITE (x+2,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_3x2_WHITE (x+2,z+5)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun blueCross (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (x  ,z+3);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (x+2,z+3);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (x+4,z+3);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_2x1_BLUE (x+6,z+3);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE (x+8,z+3);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_BLUE (x+3,z  );</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_BLUE (x+3,z+2);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x2_BLUE (x+3,z+4);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>put2D_1x1_BLUE (x+3,z+6)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p style='line-height:0.5'>fun flagOfNorway (x,z) =</p>"+
+    "<p style='text-indent: 2em; line-height:0.5'>(</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>redPart    (x,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>whiteCross (x,z);</p>"+
+        "<p style='text-indent: 4em; line-height:0.5'>blueCross  (x,z)</p>"+
+    "<p style='text-indent: 2em;'>);</p>"+
+
+    "<p>flagOfNorway (0,0);</p>"+
+    "<hr style='border-width: 3px; border-style: inset;'>",
+    [
+        new SolutionCell(0,0,'RED'),
+        new SolutionCell(1,0,'RED'),
+        new SolutionCell(0,1,'RED'),
+        new SolutionCell(1,1,'RED'),
+
+        new SolutionCell(0,5,'RED'),
+        new SolutionCell(1,5,'RED'),
+        new SolutionCell(0,6,'RED'),
+        new SolutionCell(1,6,'RED'),
+
+
+        new SolutionCell(5,0,'RED'),
+        new SolutionCell(6,0,'RED'),
+        new SolutionCell(7,0,'RED'),
+        new SolutionCell(8,0,'RED'),
+
+        new SolutionCell(5,1,'RED'),
+        new SolutionCell(6,1,'RED'),
+        new SolutionCell(7,1,'RED'),
+        new SolutionCell(8,1,'RED'),
+
+        new SolutionCell(5,5,'RED'),
+        new SolutionCell(6,5,'RED'),
+        new SolutionCell(7,5,'RED'),
+        new SolutionCell(8,5,'RED'),
+
+        new SolutionCell(5,6,'RED'),
+        new SolutionCell(6,6,'RED'),
+        new SolutionCell(7,6,'RED'),
+        new SolutionCell(8,6,'RED'),
+
+
+        new SolutionCell(0,2,'WHITE'),
+        new SolutionCell(1,2,'WHITE'),
+        new SolutionCell(2,2,'WHITE'),
+        new SolutionCell(4,2,'WHITE'),
+        new SolutionCell(5,2,'WHITE'),
+        new SolutionCell(6,2,'WHITE'),
+        new SolutionCell(7,2,'WHITE'),
+        new SolutionCell(8,2,'WHITE'),
+
+        new SolutionCell(0,4,'WHITE'),
+        new SolutionCell(1,4,'WHITE'),
+        new SolutionCell(2,4,'WHITE'),
+        new SolutionCell(4,4,'WHITE'),
+        new SolutionCell(5,4,'WHITE'),
+        new SolutionCell(6,4,'WHITE'),
+        new SolutionCell(7,4,'WHITE'),
+        new SolutionCell(8,4,'WHITE'),
+
+        new SolutionCell(2,0,'WHITE'),
+        new SolutionCell(2,1,'WHITE'),
+        new SolutionCell(2,5,'WHITE'),
+        new SolutionCell(2,6,'WHITE'),
+
+        new SolutionCell(4,0,'WHITE'),
+        new SolutionCell(4,1,'WHITE'),
+        new SolutionCell(4,5,'WHITE'),
+        new SolutionCell(4,6,'WHITE'),
+
+        new SolutionCell(0,3,'BLUE'),
+        new SolutionCell(1,3,'BLUE'),
+        new SolutionCell(2,3,'BLUE'),
+        new SolutionCell(3,3,'BLUE'),
+        new SolutionCell(4,3,'BLUE'),
+        new SolutionCell(5,3,'BLUE'),
+        new SolutionCell(6,3,'BLUE'),
+        new SolutionCell(7,3,'BLUE'),
+        new SolutionCell(8,3,'BLUE'),
+
+        new SolutionCell(3,0,'BLUE'),
+        new SolutionCell(3,1,'BLUE'),
+        new SolutionCell(3,2,'BLUE'),
+
+        new SolutionCell(3,4,'BLUE'),
+        new SolutionCell(3,5,'BLUE'),
+        new SolutionCell(3,6,'BLUE')
+    ]
+));
+
+
 // ---------------------------------------------------------------------------------------------------------------------
 // Concept 13
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(13,1,7,
+exercises.push(new Exercise(14,1,7,
     "<h3 id = 'questionInfo'>Concept 13 Demo 1</h3>" +
     "<p>Idea: radius*radius >= x*x + z*z</p>"+
     "<p>Formula: radius >= sqrt( sq(x-centerX) + sq(z-centerZ) )</p>"+
@@ -3514,7 +4429,7 @@ exercises.push(new Exercise(13,1,7,
 // ---------------------------------------------------------------------------------------------------------------------
 //Concept 14
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(14,1,5,
+exercises.push(new Exercise(15,1,5,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Demo 1</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -3529,7 +4444,7 @@ exercises.push(new Exercise(14,1,5,
         new SolutionCell(2,1,"RED"),
         new SolutionCell(3,1,"RED")]
 ));
-exercises.push(new Exercise(14,2,5,
+exercises.push(new Exercise(15,2,5,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Demo 2</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -3552,7 +4467,7 @@ exercises.push(new Exercise(14,2,5,
         new SolutionCell(2,4,"BLUE"),
         new SolutionCell(3,4,"BLUE")]
 ));
-exercises.push(new Exercise(14,3,5,
+exercises.push(new Exercise(15,3,5,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 1</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -3563,7 +4478,7 @@ exercises.push(new Exercise(14,3,5,
         new SolutionCell(2,0,"YELLOW"),
         new SolutionCell(3,0,"YELLOW")]
 ));
-exercises.push(new Exercise(14,4,5,
+exercises.push(new Exercise(15,4,5,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 2</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -3582,7 +4497,7 @@ exercises.push(new Exercise(14,4,5,
         new SolutionCell(2,3,"GREEN"),
         new SolutionCell(3,3,"GREEN")]
 ));
-exercises.push(new Exercise(14,5,5,
+exercises.push(new Exercise(15,5,5,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 3</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -3613,7 +4528,7 @@ exercises.push(new Exercise(14,5,5,
         new SolutionCell(3,4,"BLUE"),
         new SolutionCell(4,4,"BLUE")]
 ));
-exercises.push(new Exercise(14,6,7,
+exercises.push(new Exercise(15,6,7,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 4</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -3657,7 +4572,7 @@ exercises.push(new Exercise(14,6,7,
         new SolutionCell(5,4,"RED"),
         new SolutionCell(6,4,"RED")]
 ));
-exercises.push(new Exercise(14,7,7,
+exercises.push(new Exercise(15,7,7,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 5</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -3700,7 +4615,7 @@ exercises.push(new Exercise(14,7,7,
         new SolutionCell(4,4,"YELLOW"),
         new SolutionCell(5,4,"YELLOW"),
         new SolutionCell(6,4,"YELLOW")]
-));exercises.push(new Exercise(14,8,9,
+));exercises.push(new Exercise(15,8,9,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 6</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>put2D (9,9) BLUE (0,0);</p>"+
@@ -3792,7 +4707,7 @@ exercises.push(new Exercise(14,7,7,
         new SolutionCell(8,8,"BLUE")]
 ));
 
-exercises.push(new Exercise(14,9,10,
+exercises.push(new Exercise(15,9,10,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 7</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -3860,7 +4775,7 @@ exercises.push(new Exercise(14,9,10,
     ]
 ));
 
-exercises.push(new Exercise(14,10,10,
+exercises.push(new Exercise(15,10,10,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 8</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
 
@@ -3911,7 +4826,7 @@ exercises.push(new Exercise(14,10,10,
     ]
 ));
 
-exercises.push(new Exercise(14,11,10,
+exercises.push(new Exercise(15,11,10,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 9</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
 
@@ -3968,7 +4883,7 @@ exercises.push(new Exercise(14,11,10,
     ]
 ));
 
-exercises.push(new Exercise(14,12,9,
+exercises.push(new Exercise(15,12,9,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 10</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
 
@@ -4075,7 +4990,7 @@ exercises.push(new Exercise(14,12,9,
 
 
 
-exercises.push(new Exercise(14,13,5,
+exercises.push(new Exercise(15,13,5,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 11</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
 
@@ -4114,7 +5029,7 @@ exercises.push(new Exercise(14,13,5,
 ));
 
 
-exercises.push(new Exercise(14,14,5,
+exercises.push(new Exercise(15,14,5,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 12</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
 
@@ -4150,7 +5065,7 @@ exercises.push(new Exercise(14,14,5,
     ]
 ));
 
-exercises.push(new Exercise(14,15,8,
+exercises.push(new Exercise(15,15,8,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 13</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
 
@@ -4192,7 +5107,7 @@ exercises.push(new Exercise(14,15,8,
 ));
 
 
-exercises.push(new Exercise(14,16,7,
+exercises.push(new Exercise(15,16,7,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 14</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
 
@@ -4235,7 +5150,7 @@ exercises.push(new Exercise(14,16,7,
     ]
 ));
 
-exercises.push(new Exercise(14,17,10,
+exercises.push(new Exercise(15,17,10,
     "<h3 id = 'questionInfo'><a target='_blank' href='http://put2D.bricklayer.org'><img src='images/video-icon.png' width='40' height='40' title='video' alt='video'></a> Concept 14 Exercise 15</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
 
@@ -4300,7 +5215,7 @@ exercises.push(new Exercise(14,17,10,
 // ---------------------------------------------------------------------------------------------------------------------
 // Concept 15
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(15,1,5,
+exercises.push(new Exercise(16,1,5,
     "<h3 id = 'questionInfo'>Concept 15 Demo 1</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4312,7 +5227,7 @@ exercises.push(new Exercise(15,1,5,
         new SolutionCell(3,3,"RED"),
         new SolutionCell(4,4,"RED")]
 ));
-exercises.push(new Exercise(15,2,6,
+exercises.push(new Exercise(16,2,6,
     "<h3 id = 'questionInfo'>Concept 15 Demo 2</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4325,7 +5240,7 @@ exercises.push(new Exercise(15,2,6,
         new SolutionCell(4,1,"BLUE"),
         new SolutionCell(5,1,"BLUE")]
 ));
-exercises.push(new Exercise(15,3,6,
+exercises.push(new Exercise(16,3,6,
     "<h3 id = 'questionInfo'>Concept 15 Exercise 1</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4338,7 +5253,7 @@ exercises.push(new Exercise(15,3,6,
         new SolutionCell(1,4,"GREEN"),
         new SolutionCell(1,5,"GREEN")]
 ));
-exercises.push(new Exercise(15,4,6,
+exercises.push(new Exercise(16,4,6,
     "<h3 id = 'questionInfo'>Concept 15 Exercise 2</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4374,7 +5289,7 @@ exercises.push(new Exercise(15,4,6,
 // ---------------------------------------------------------------------------------------------------------------------
 //Concept 16
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(16,1,5,
+exercises.push(new Exercise(17,1,5,
     "<h3 id = 'questionInfo'>Concept 16 Demo 1</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4383,7 +5298,7 @@ exercises.push(new Exercise(16,1,5,
     [   new SolutionCell(3,4,"RED"),
         new SolutionCell(4,4,"RED")]
 ));
-exercises.push(new Exercise(16,2,5,
+exercises.push(new Exercise(17,2,5,
     "<h3 id = 'questionInfo'>Concept 16 Demo 2</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4391,7 +5306,7 @@ exercises.push(new Exercise(16,2,5,
     "<hr style='border-width: 3px; border-style: inset;'>",
     [new SolutionCell(0,4,"BLUE")]
 ));
-exercises.push(new Exercise(16,3,5,
+exercises.push(new Exercise(17,3,5,
     "<h3 id = 'questionInfo'>Concept 16 Exercise 1</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4399,7 +5314,7 @@ exercises.push(new Exercise(16,3,5,
     "<hr style='border-width: 3px; border-style: inset;'>",
     [new SolutionCell(4,4,"BLUE")]
 ));
-exercises.push(new Exercise(16,4,5,
+exercises.push(new Exercise(17,4,5,
     "<h3 id = 'questionInfo'>Concept 16 Exercise 2</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4410,7 +5325,7 @@ exercises.push(new Exercise(16,4,5,
         new SolutionCell(3,4,"GREEN"),
         new SolutionCell(4,3,"GREEN")]
 ));
-exercises.push(new Exercise(16,5,5,
+exercises.push(new Exercise(17,5,5,
     "<h3 id = 'questionInfo'>Concept 16 Exercise 3</h3>" +
     "<p>Execute the following function by putting bricks in the proper cells.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4421,7 +5336,7 @@ exercises.push(new Exercise(16,5,5,
 // ---------------------------------------------------------------------------------------------------------------------
 //Concept 17
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(17,1,7,
+exercises.push(new Exercise(18,1,7,
     "<h3 id = 'questionInfo'>Concept 17 Demo 1</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>build2D(7,7);</p>"+
@@ -4447,7 +5362,7 @@ exercises.push(new Exercise(17,1,7,
         new SolutionCell(3,4,"BLUE"),
         new SolutionCell(4,4,"BLUE")]
 ));
-exercises.push(new Exercise(17,2,7,
+exercises.push(new Exercise(18,2,7,
     "<h3 id = 'questionInfo'>Concept 17 Demo 2</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>build2D(7,7);</p>"+
@@ -4482,7 +5397,7 @@ exercises.push(new Exercise(17,2,7,
         new SolutionCell(0,3,"BLUE"),
         new SolutionCell(0,4,"BLUE")]
 ));
-exercises.push(new Exercise(17,3,7,
+exercises.push(new Exercise(18,3,7,
     "<h3 id = 'questionInfo'>Concept 17 Demo 3</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>build2D(7,7);</p>"+
@@ -4522,7 +5437,7 @@ exercises.push(new Exercise(17,3,7,
         new SolutionCell(5,5,"BLUE"),
         new SolutionCell(6,6,"GREEN")]
 ));
-exercises.push(new Exercise(17,4,7,
+exercises.push(new Exercise(18,4,7,
     "<h3 id = 'questionInfo'>Concept 17 Demo 4</h3>" +
     "<hr style='border-width: 3px; border-style: inset;'>"+
     "<p>build2D(7,7);</p>"+
@@ -4562,7 +5477,7 @@ exercises.push(new Exercise(17,4,7,
 // ---------------------------------------------------------------------------------------------------------------------
 //Concept 18
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(18,1,6,
+exercises.push(new Exercise(19,1,6,
     "<h3 id = 'questionInfo'>Concept 18 Demo 1</h3>" +
     "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
     "<hr style='border-width: 3px; border-style: inset;'>" +
@@ -4575,7 +5490,7 @@ exercises.push(new Exercise(18,1,6,
     "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(5,4,"BLACK")]
 ));
-exercises.push(new Exercise(18,2,6,
+exercises.push(new Exercise(19,2,6,
     "<h3 id = 'questionInfo'>Concept 18 Demo 2</h3>" +
     "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4613,7 +5528,7 @@ exercises.push(new Exercise(18,2,6,
         new SolutionCell(1,2,"BLUE"),
         new SolutionCell(1,3,"BLUE")]
 ));
-exercises.push(new Exercise(18,3,6,
+exercises.push(new Exercise(19,3,6,
     "<h3 id = 'questionInfo'>Concept 18 Exercise 1</h3>" +
     "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4629,7 +5544,7 @@ exercises.push(new Exercise(18,3,6,
         new SolutionCell(2,4,"YELLOW")
     ]
 ));
-exercises.push(new Exercise(18,4,6,
+exercises.push(new Exercise(19,4,6,
     "<h3 id = 'questionInfo'>Concept 18 Exercise 2</h3>" +
     "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4648,7 +5563,7 @@ exercises.push(new Exercise(18,4,6,
         new SolutionCell(4,4,"RED")]
 ));
 
-exercises.push(new Exercise(18,5,6,
+exercises.push(new Exercise(19,5,6,
     "<h3 id = 'questionInfo'>Concept 18 Exercise 3</h3>" +
     "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4668,7 +5583,7 @@ exercises.push(new Exercise(18,5,6,
         new SolutionCell(1,5,"RED"),
         new SolutionCell(2,5,"RED")]
 ));
-exercises.push(new Exercise(18,6,6,
+exercises.push(new Exercise(19,6,6,
     "<h3 id = 'questionInfo'>Concept 18 Exercise 4</h3>" +
     "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4690,7 +5605,7 @@ exercises.push(new Exercise(18,6,6,
         new SolutionCell(5,4,"RED"),
         new SolutionCell(5,5,"RED")]
 ));
-exercises.push(new Exercise(18,7,6,
+exercises.push(new Exercise(19,7,6,
     "<h3 id = 'questionInfo'>Concept 18 Exercise 5</h3>" +
     "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4711,7 +5626,7 @@ exercises.push(new Exercise(18,7,6,
         new SolutionCell(0,5,"BLUE")
     ]
 ));
-exercises.push(new Exercise(18,8,7,
+exercises.push(new Exercise(19,8,7,
     "<h3 id = 'questionInfo'>Concept 18 Exercise 6</h3>" +
     "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4754,7 +5669,7 @@ exercises.push(new Exercise(18,8,7,
         new SolutionCell(2,5,"BLUE")
     ]
 ));
-exercises.push(new Exercise(18,9,7,
+exercises.push(new Exercise(19,9,7,
     "<h3 id = 'questionInfo'>Concept 18 Exercise 7</h3>" +
     "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4784,7 +5699,7 @@ exercises.push(new Exercise(18,9,7,
         new SolutionCell(3,3,"BLUE")
     ]
 ));
-exercises.push(new Exercise(18,10,7,
+exercises.push(new Exercise(19,10,7,
     "<h3 id = 'questionInfo'>Concept 18 Exercise 8</h3>" +
     "<p style='line-height: 80%;'>What is the result of executing the following Level_3 program fragment?"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4829,7 +5744,7 @@ exercises.push(new Exercise(18,10,7,
 // ---------------------------------------------------------------------------------------------------------------------
 // Concept 19
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(19,1,5,
+exercises.push(new Exercise(20,1,5,
     "<h3 id = 'questionInfo'>Concept 19 Demo 1</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4844,7 +5759,7 @@ exercises.push(new Exercise(19,1,5,
         new SolutionCell(2,1,"BLUE"),
         new SolutionCell(3,1,"BLUE")]
 ));
-exercises.push(new Exercise(19,2,5,
+exercises.push(new Exercise(20,2,5,
     "<h3 id = 'questionInfo'>Concept 19 Exercise 1</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4857,7 +5772,7 @@ exercises.push(new Exercise(19,2,5,
         new SolutionCell(1,4,"RED"),
         new SolutionCell(2,4,"RED")]
 ));
-exercises.push(new Exercise(19,3,5,
+exercises.push(new Exercise(20,3,5,
     "<h3 id = 'questionInfo'>Concept 19 Exercise 2</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4868,7 +5783,7 @@ exercises.push(new Exercise(19,3,5,
         new SolutionCell(2,4,"BLUE"),
         new SolutionCell(3,4,"BLUE")]
 ));
-exercises.push(new Exercise(19,4,5,
+exercises.push(new Exercise(20,4,5,
     "<h3 id = 'questionInfo'>Concept 19 Exercise 3</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4881,7 +5796,7 @@ exercises.push(new Exercise(19,4,5,
         new SolutionCell(0,2,"GREEN"),
         new SolutionCell(1,2,"GREEN")]
 ));
-exercises.push(new Exercise(19,5,7,
+exercises.push(new Exercise(20,5,7,
     "<h3 id = 'questionInfo'>Concept 19 Exercise 4</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function calls.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4922,7 +5837,7 @@ exercises.push(new Exercise(19,5,7,
         new SolutionCell(3,3,"RED")
     ]
 ));
-exercises.push(new Exercise(19,6,7,
+exercises.push(new Exercise(20,6,7,
     "<h3 id = 'questionInfo'>Concept 19 Exercise 5</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function calls.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -4970,7 +5885,7 @@ exercises.push(new Exercise(19,6,7,
         new SolutionCell(6,4,"RED")
     ]
 ));
-exercises.push(new Exercise(19,7,7,
+exercises.push(new Exercise(20,7,7,
     "<h3 id = 'questionInfo'>Concept 19 Exercise 6</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function calls.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -5036,7 +5951,7 @@ exercises.push(new Exercise(19,7,7,
 
     ]
 ));
-exercises.push(new Exercise(19,8,7,
+exercises.push(new Exercise(20,8,7,
     "<h3 id = 'questionInfo'>Concept 19 Exercise 7</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function calls.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -5072,7 +5987,7 @@ exercises.push(new Exercise(19,8,7,
         new SolutionCell(3,0,"BLACK")
     ]
 ));
-exercises.push(new Exercise(19,9,7,
+exercises.push(new Exercise(20,9,7,
     "<h3 id = 'questionInfo'>Concept 19 Exercise 8</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function calls.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -5143,7 +6058,7 @@ exercises.push(new Exercise(19,9,7,
 // ---------------------------------------------------------------------------------------------------------------------
 // Concept 20
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(20,1,5,
+exercises.push(new Exercise(21,1,5,
     "<h3 id = 'questionInfo'>Concept 20 Demo 1</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -5161,7 +6076,7 @@ exercises.push(new Exercise(20,1,5,
     ]
 ));
 
-exercises.push(new Exercise(20,2,5,
+exercises.push(new Exercise(21,2,5,
     "<h3 id = 'questionInfo'>Concept 20 Demo 2</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -5185,7 +6100,7 @@ exercises.push(new Exercise(20,2,5,
     ]
 ));
 
-exercises.push(new Exercise(20,3,5,
+exercises.push(new Exercise(21,3,5,
     "<h3 id = 'questionInfo'>Concept 20 Exercise 1</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -5217,7 +6132,7 @@ exercises.push(new Exercise(20,3,5,
     ]
 ));
 
-exercises.push(new Exercise(20,4,5,
+exercises.push(new Exercise(21,4,5,
 "<h3 id = 'questionInfo'>Concept 20 Exercise 2</h3>" +
 "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
 "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -5241,7 +6156,7 @@ exercises.push(new Exercise(20,4,5,
     ]
 ));
 
-exercises.push(new Exercise(20,5,5,
+exercises.push(new Exercise(21,5,5,
     "<h3 id = 'questionInfo'>Concept 20 Exercise 3</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -5273,7 +6188,7 @@ exercises.push(new Exercise(20,5,5,
     ]
 ));
 
-exercises.push(new Exercise(20,6,5,
+exercises.push(new Exercise(21,6,5,
     "<h3 id = 'questionInfo'>Concept 20 Exercise 4</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -5304,7 +6219,7 @@ exercises.push(new Exercise(20,6,5,
     ]
 ));
 
-exercises.push(new Exercise(20,7,5,
+exercises.push(new Exercise(21,7,5,
     "<h3 id = 'questionInfo'>Concept 20 Exercise 5</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -5323,7 +6238,7 @@ exercises.push(new Exercise(20,7,5,
     ]
 ));
 
-exercises.push(new Exercise(20,8,5,
+exercises.push(new Exercise(21,8,5,
     "<h3 id = 'questionInfo'>Concept 20 Exercise 6</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -5342,7 +6257,7 @@ exercises.push(new Exercise(20,8,5,
     ]
 ));
 
-exercises.push(new Exercise(20,9,5,
+exercises.push(new Exercise(21,9,5,
     "<h3 id = 'questionInfo'>Concept 20 Exercise 7</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -5367,7 +6282,7 @@ exercises.push(new Exercise(20,9,5,
     ]
 ));
 
-exercises.push(new Exercise(20,10,5,
+exercises.push(new Exercise(21,10,5,
     "<h3 id = 'questionInfo'>Concept 20 Exercise 8</h3>" +
     "<p>Assume that the XZ plane shown has y value of 0. Evaluate the following function call.</p>"+
     "<hr style='border-width: 3px; border-style: inset;'>"+
@@ -5400,7 +6315,7 @@ exercises.push(new Exercise(20,10,5,
 // ---------------------------------------------------------------------------------------------------------------------
 //Concept 21
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(21,1,4,
+exercises.push(new Exercise(22,1,4,
     "<h3 id = 'questionInfo'>Concept 21 Demo 1</h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5429,7 +6344,7 @@ exercises.push(new Exercise(21,1,4,
         new SolutionCell(3,2,"BLUE"),
         new SolutionCell(3,3,"BLUE")]
 ));
-exercises.push(new Exercise(21,2,6,
+exercises.push(new Exercise(22,2,6,
     "<h3 id = 'questionInfo'>Concept 21 Demo 2</h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5478,7 +6393,7 @@ exercises.push(new Exercise(21,2,6,
         new SolutionCell(5,4,"RED"),
         new SolutionCell(5,5,"RED")]
 ));
-exercises.push(new Exercise(21,3,6,
+exercises.push(new Exercise(22,3,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 1 </h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5497,7 +6412,7 @@ exercises.push(new Exercise(21,3,6,
         new SolutionCell(4,3,"RED"),
         new SolutionCell(5,3,"RED")]
 ));
-exercises.push(new Exercise(21,4,6,
+exercises.push(new Exercise(22,4,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 2 </h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5516,7 +6431,7 @@ exercises.push(new Exercise(21,4,6,
         new SolutionCell(4,4,"GREEN"),
         new SolutionCell(5,5,"GREEN")]
 ));
-exercises.push(new Exercise(21,5,6,
+exercises.push(new Exercise(22,5,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 3 </h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5544,7 +6459,7 @@ exercises.push(new Exercise(21,5,6,
         new SolutionCell(1,2,"YELLOW"),
         new SolutionCell(0,1,"YELLOW")]
 ));
-exercises.push(new Exercise(21,6,6,
+exercises.push(new Exercise(22,6,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 4 </h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5563,7 +6478,7 @@ exercises.push(new Exercise(21,6,6,
         new SolutionCell(4,1,"BLUE"),
         new SolutionCell(5,0,"BLUE")]
 ));
-exercises.push(new Exercise(21,7,6,
+exercises.push(new Exercise(22,7,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 5 </h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5591,7 +6506,7 @@ exercises.push(new Exercise(21,7,6,
         new SolutionCell(5,2,"RED"),
         new SolutionCell(5,1,"RED")]
 ));
-exercises.push(new Exercise(21,8,6,
+exercises.push(new Exercise(22,8,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 6 </h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5640,7 +6555,7 @@ exercises.push(new Exercise(21,8,6,
         new SolutionCell(4,1,"WHITE"),
         new SolutionCell(5,2,"WHITE")]
 ));
-exercises.push(new Exercise(21,9,6,
+exercises.push(new Exercise(22,9,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 7 </h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5689,7 +6604,7 @@ exercises.push(new Exercise(21,9,6,
         new SolutionCell(4,5,"YELLOW"),
         new SolutionCell(5,5,"YELLOW")]
 ));
-exercises.push(new Exercise(21,10,6,
+exercises.push(new Exercise(22,10,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 8 </h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5720,7 +6635,7 @@ exercises.push(new Exercise(21,10,6,
         new SolutionCell(4,4,"BLUE"),
         new SolutionCell(4,5,"BLUE")]
 ));
-exercises.push(new Exercise(21,11,6,
+exercises.push(new Exercise(22,11,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 9 </h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5745,7 +6660,7 @@ exercises.push(new Exercise(21,11,6,
         new SolutionCell(4,5,"BLUE"),
         new SolutionCell(5,4,"BLUE")]
 ));
-exercises.push(new Exercise(21,12,6,
+exercises.push(new Exercise(22,12,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 10</h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5782,7 +6697,7 @@ exercises.push(new Exercise(21,12,6,
         new SolutionCell(5,3,"GREEN"),
         new SolutionCell(5,5,"GREEN")]
 ));
-exercises.push(new Exercise(21,13,6,
+exercises.push(new Exercise(22,13,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 11</h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5801,7 +6716,7 @@ exercises.push(new Exercise(21,13,6,
         new SolutionCell(3,2,"RED"),
         new SolutionCell(3,4,"RED")]
 ));
-exercises.push(new Exercise(21,14,6,
+exercises.push(new Exercise(22,14,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 12</h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5826,7 +6741,7 @@ exercises.push(new Exercise(21,14,6,
         new SolutionCell(4,2,"GREEN"),
         new SolutionCell(4,4,"GREEN")]
 ));
-exercises.push(new Exercise(21,15,6,
+exercises.push(new Exercise(22,15,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 13</h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5875,7 +6790,7 @@ exercises.push(new Exercise(21,15,6,
         new SolutionCell(4,5,"YELLOW"),
         new SolutionCell(5,5,"YELLOW")]
 ));
-exercises.push(new Exercise(21,16,6,
+exercises.push(new Exercise(22,16,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 14</h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5924,7 +6839,7 @@ exercises.push(new Exercise(21,16,6,
         new SolutionCell(5,4,"GREEN"),
         new SolutionCell(5,5,"GREEN")]
 ));
-exercises.push(new Exercise(21,17,6,
+exercises.push(new Exercise(22,17,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 15</h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -5973,7 +6888,7 @@ exercises.push(new Exercise(21,17,6,
         new SolutionCell(5,4,"YELLOW"),
         new SolutionCell(5,5,"YELLOW")]
 ));
-exercises.push(new Exercise(21,18,6,
+exercises.push(new Exercise(22,18,6,
     "<h3 id = 'questionInfo'>Concept 21 Exercise 16</h3>" +
     "<p>A brick function is a function that takes as its input the coordinates of a point in a 3D space and returns a brick." +
     " What artifact is produced when the following Bricklayer program is executed?" +
@@ -6025,7 +6940,7 @@ exercises.push(new Exercise(21,18,6,
 // ---------------------------------------------------------------------------------------------------------------------
 //Concept 22
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(22,1,4,
+exercises.push(new Exercise(23,1,4,
     "<h3 id = 'questionInfo'>Concept 22 Demo 1</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying brickFn shown below to the matrix of cells shown on the right?</p>" +
@@ -6037,7 +6952,7 @@ exercises.push(new Exercise(22,1,4,
     "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE")]
 ));
-exercises.push(new Exercise(22,2,4,
+exercises.push(new Exercise(23,2,4,
     "<h3 id = 'questionInfo'>Concept 22 Demo 2</h3>" +
     "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
@@ -6050,7 +6965,7 @@ exercises.push(new Exercise(22,2,4,
     "<hr style='border-width: 3px; border-style: inset;'>",
     [   new SolutionCell(0,0,"BLUE")]
 ));
-exercises.push(new Exercise(22,3,6,
+exercises.push(new Exercise(23,3,6,
     "<h3 id = 'questionInfo'>Concept 22 Demo 3</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
@@ -6097,7 +7012,7 @@ exercises.push(new Exercise(22,3,6,
         new SolutionCell(5,4,"RED"),
         new SolutionCell(5,5,"RED")]
 ));
-exercises.push(new Exercise(22,4,6,
+exercises.push(new Exercise(23,4,6,
     "<h3 id = 'questionInfo'>Concept 22 Demo 4</h3>" +
     "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
@@ -6143,7 +7058,7 @@ exercises.push(new Exercise(22,4,6,
         new SolutionCell(5,4,"RED"),
         new SolutionCell(5,5,"RED")]
 ));
-exercises.push(new Exercise(22,5,6,
+exercises.push(new Exercise(23,5,6,
     "<h3 id = 'questionInfo'>Concept 22 Exercise 1</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
@@ -6172,7 +7087,7 @@ exercises.push(new Exercise(22,5,6,
         new SolutionCell(4,4,"BLUE"),
         new SolutionCell(4,5,"BLUE")]
 ));
-exercises.push(new Exercise(22,6,6,
+exercises.push(new Exercise(23,6,6,
     "<h3 id = 'questionInfo'>Concept 22 Exercise 2</h3>" +
     "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
@@ -6200,7 +7115,7 @@ exercises.push(new Exercise(22,6,6,
         new SolutionCell(4,4,"BLUE"),
         new SolutionCell(4,5,"BLUE")]
 ));
-exercises.push(new Exercise(22,7,6,
+exercises.push(new Exercise(23,7,6,
     "<h3 id = 'questionInfo'>Concept 22 Exercise 3</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
@@ -6223,7 +7138,7 @@ exercises.push(new Exercise(22,7,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(22,8,6,
+exercises.push(new Exercise(23,8,6,
     "<h3 id = 'questionInfo'>Concept 22 Exercise 4</h3>" +
     "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
@@ -6245,7 +7160,7 @@ exercises.push(new Exercise(22,8,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(22,9,6,
+exercises.push(new Exercise(23,9,6,
     "<h3 id = 'questionInfo'>Concept 22 Exercise 5</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
@@ -6277,7 +7192,7 @@ exercises.push(new Exercise(22,9,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(22,10,6,
+exercises.push(new Exercise(23,10,6,
     "<h3 id = 'questionInfo'>Concept 22 Exercise 6</h3>" +
     "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
@@ -6308,7 +7223,7 @@ exercises.push(new Exercise(22,10,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(22,11,6,
+exercises.push(new Exercise(23,11,6,
     "<h3 id = 'questionInfo'>Concept 22 Exercise 7</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
@@ -6347,7 +7262,7 @@ exercises.push(new Exercise(22,11,6,
         new SolutionCell(5,4,"YELLOW"),
         new SolutionCell(5,5,"YELLOW")]
 ));
-exercises.push(new Exercise(22,12,6,
+exercises.push(new Exercise(23,12,6,
     "<h3 id = 'questionInfo'>Concept 22 Exercise 8</h3>" +
     "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
@@ -6387,7 +7302,7 @@ exercises.push(new Exercise(22,12,6,
         new SolutionCell(5,4,"YELLOW"),
         new SolutionCell(5,5,"YELLOW")]
 ));
-exercises.push(new Exercise(22,13,6,
+exercises.push(new Exercise(23,13,6,
     "<h3 id = 'questionInfo'>Concept 22 Exercise 9</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     " What is the result of applying the brick function f to the following matrix of cells." +
@@ -6434,7 +7349,7 @@ exercises.push(new Exercise(22,13,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(22,14,6,
+exercises.push(new Exercise(23,14,6,
     "<h3 id = 'questionInfo'>Concept 22 Exercise 10</h3>" +
     "<p>SML defines the Boolean operator 'andalso' as follows:.</p>"+
     "<p>e1 andalso e2 = if e1 then e2 else false</p>" +
@@ -6482,7 +7397,7 @@ exercises.push(new Exercise(22,14,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(22,15,6,
+exercises.push(new Exercise(23,15,6,
     "<h3 id = 'questionInfo'>Concept 22 Exercise 11</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
@@ -6533,7 +7448,7 @@ exercises.push(new Exercise(22,15,6,
 // ---------------------------------------------------------------------------------------------------------------------
 //Concept 23
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(23,1,6,
+exercises.push(new Exercise(24,1,6,
     "<h3 id = 'questionInfo'>Concept 23 Demo 1</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     "What is the result of applying the brick function f to the following matrix of cells." +
@@ -6555,7 +7470,7 @@ exercises.push(new Exercise(23,1,6,
         new SolutionCell(4,0,"BLUE"),
         new SolutionCell(5,0,"BLUE")]
 ));
-exercises.push(new Exercise(23,2,6,
+exercises.push(new Exercise(24,2,6,
     "<h3 id = 'questionInfo'>Concept 23 Demo 2</h3>" +
     "<p>SML defines the Boolean operator 'orelse' as follows:.</p>"+
     "<p>e1 orelse e2 = if e1 then true else e2</p>" +
@@ -6579,7 +7494,7 @@ exercises.push(new Exercise(23,2,6,
         new SolutionCell(4,0,"BLUE"),
         new SolutionCell(5,0,"BLUE")]
 ));
-exercises.push(new Exercise(23,3,6,
+exercises.push(new Exercise(24,3,6,
     "<h3 id = 'questionInfo'>Concept 23 Demo 3</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     "What is the result of applying the brick function f to the following matrix of cells." +
@@ -6625,7 +7540,7 @@ exercises.push(new Exercise(23,3,6,
         new SolutionCell(5,4,"RED"),
         new SolutionCell(5,5,"RED")]
 ));
-exercises.push(new Exercise(23,4,6,
+exercises.push(new Exercise(24,4,6,
     "<h3 id = 'questionInfo'>Concept 23 Demo 4</h3>" +
     "<p>SML defines the Boolean operator 'orelse' as follows:.</p>"+
     "<p>e1 orelse e2 = if e1 then true else e2</p>" +
@@ -6671,7 +7586,7 @@ exercises.push(new Exercise(23,4,6,
         new SolutionCell(5,4,"RED"),
         new SolutionCell(5,5,"RED")]
 ));
-exercises.push(new Exercise(23,5,7,
+exercises.push(new Exercise(24,5,7,
     "<h3 id = 'questionInfo'>Concept 23 Exercise 1</h3>" +
     "<p>SML defines the Boolean operator 'orelse' as follows:.</p>"+
     "<p>e1 orelse e2 = if e1 then true else e2</p>" +
@@ -6730,7 +7645,7 @@ exercises.push(new Exercise(23,5,7,
         new SolutionCell(6,5,"RED"),
         new SolutionCell(6,6,"RED")]
 ));
-exercises.push(new Exercise(23,6,6,
+exercises.push(new Exercise(24,6,6,
     "<h3 id = 'questionInfo'>Concept 23 Exercise 2</h3>" +
     "<p>SML defines the Boolean operator 'orelse' as follows:.</p>"+
     "<p>e1 orelse e2 = if e1 then true else e2</p>" +
@@ -6776,7 +7691,7 @@ exercises.push(new Exercise(23,6,6,
         new SolutionCell(5,4,"RED"),
         new SolutionCell(5,5,"WHITE")]
 ));
-exercises.push(new Exercise(23,7,7,
+exercises.push(new Exercise(24,7,7,
     "<h3 id = 'questionInfo'>Concept 23 Exercise 3</h3>" +
     "<p>Nesting conditional expressions makes it possible to express conditions made up of multiple parts." +
     "What is the result of applying the brick function f to the following matrix of cells." +
@@ -6835,7 +7750,7 @@ exercises.push(new Exercise(23,7,7,
         new SolutionCell(6,5,"GREEN"),
         new SolutionCell(6,6,"YELLOW")]
 ));
-exercises.push(new Exercise(23,8,7,
+exercises.push(new Exercise(24,8,7,
     "<h3 id = 'questionInfo'>Concept 23 Exercise 4</h3>" +
     "<p>SML defines the Boolean operator 'orelse' as follows:.</p>"+
     "<p>e1 orelse e2 = if e1 then true else e2</p>" +
@@ -6895,7 +7810,7 @@ exercises.push(new Exercise(23,8,7,
         new SolutionCell(6,5,"GREEN"),
         new SolutionCell(6,6,"YELLOW")]
 ));
-exercises.push(new Exercise(23,9,7,
+exercises.push(new Exercise(24,9,7,
     "<h3 id = 'questionInfo'>Concept 23 Exercise 5</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
@@ -6924,7 +7839,7 @@ exercises.push(new Exercise(23,9,7,
         new SolutionCell(6,5,"GREEN"),
         new SolutionCell(6,6,"GREEN")]
 ));
-exercises.push(new Exercise(23,10,7,
+exercises.push(new Exercise(24,10,7,
     "<h3 id = 'questionInfo'>Concept 23 Exercise 6</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
@@ -6952,7 +7867,7 @@ exercises.push(new Exercise(23,10,7,
         new SolutionCell(6,2,"RED"),
         new SolutionCell(6,3,"RED")]
 ));
-exercises.push(new Exercise(23,11,6,
+exercises.push(new Exercise(24,11,6,
     "<h3 id = 'questionInfo'>Concept 23 Exercise 7</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
@@ -6984,7 +7899,7 @@ exercises.push(new Exercise(23,11,6,
         new SolutionCell(5,1,"BLUE"),
         new SolutionCell(5,2,"BLUE")]
 ));
-exercises.push(new Exercise(23,12,6,
+exercises.push(new Exercise(24,12,6,
     "<h3 id = 'questionInfo'>Concept 23 Exercise 8</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
@@ -7017,7 +7932,7 @@ exercises.push(new Exercise(23,12,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(23,13,6,
+exercises.push(new Exercise(24,13,6,
     "<h3 id = 'questionInfo'>Concept 23 Exercise 9</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
@@ -7044,7 +7959,7 @@ exercises.push(new Exercise(23,13,6,
         new SolutionCell(5,4,"GREEN"),
         new SolutionCell(5,5,"GREEN")]
 ));
-exercises.push(new Exercise(23,14,6,
+exercises.push(new Exercise(24,14,6,
     "<h3 id = 'questionInfo'>Concept 23 Exercise 10</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
@@ -7065,7 +7980,7 @@ exercises.push(new Exercise(23,14,6,
         new SolutionCell(5,1,"RED"),
         new SolutionCell(5,2,"RED")]
 ));
-exercises.push(new Exercise(23,15,6,
+exercises.push(new Exercise(24,15,6,
     "<h3 id = 'questionInfo'>Concept 23 Exercise 11</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
@@ -7099,7 +8014,7 @@ exercises.push(new Exercise(23,15,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(23,16,6,
+exercises.push(new Exercise(24,16,6,
     "<h3 id = 'questionInfo'>Concept 23 Exercise 12</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
@@ -7146,7 +8061,7 @@ exercises.push(new Exercise(23,16,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(23,17,6,
+exercises.push(new Exercise(24,17,6,
     "<h3 id = 'questionInfo'>Concept 23 Exercise 13</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
@@ -7191,7 +8106,7 @@ exercises.push(new Exercise(23,17,6,
         new SolutionCell(5,4,"BLUE"),
         new SolutionCell(5,5,"BLUE")]
 ));
-exercises.push(new Exercise(23,18,7,
+exercises.push(new Exercise(24,18,7,
     "<h3 id = 'questionInfo'>Concept 23 Exercise 14</h3>" +
     "<p>What is the result of applying the brick function f to the following matrix of cells." +
     " Assume that the y value for all cell positions is 0.</p>" +
@@ -7243,7 +8158,7 @@ exercises.push(new Exercise(23,18,7,
 // ---------------------------------------------------------------------------------------------------------------------
 // Concept 24
 // ---------------------------------------------------------------------------------------------------------------------
-exercises.push(new Exercise(24,1,7,
+exercises.push(new Exercise(25,1,7,
     "<h3 id = 'questionInfo'>Concept 24 Demo 1 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
@@ -7271,7 +8186,7 @@ exercises.push(new Exercise(24,1,7,
         new SolutionCell(5,3,"GREEN"),
         new SolutionCell(6,3,"GREEN")]
 ));
-exercises.push(new Exercise(24,2,4,
+exercises.push(new Exercise(25,2,4,
     "<h3 id = 'questionInfo'>Concept 24 Exercise 1 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
@@ -7299,7 +8214,7 @@ exercises.push(new Exercise(24,2,4,
         new SolutionCell(3,2,"YELLOW"),
         new SolutionCell(3,3,"RED")]
 ));
-exercises.push(new Exercise(24,3,4,
+exercises.push(new Exercise(25,3,4,
     "<h3 id = 'questionInfo'>Concept 24 Exercise 2 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
@@ -7329,7 +8244,7 @@ exercises.push(new Exercise(24,3,4,
         new SolutionCell(3,2,"YELLOW"),
         new SolutionCell(3,3,"RED")]
 ));
-exercises.push(new Exercise(24,4,4,
+exercises.push(new Exercise(25,4,4,
     "<h3 id = 'questionInfo'>Concept 24 Exercise 3 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
@@ -7359,7 +8274,7 @@ exercises.push(new Exercise(24,4,4,
         new SolutionCell(3,2,"YELLOW"),
         new SolutionCell(3,3,"YELLOW")]
 ));
-exercises.push(new Exercise(24,5,5,
+exercises.push(new Exercise(25,5,5,
     "<h3 id = 'questionInfo'>Concept 24 Exercise 4 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
@@ -7398,7 +8313,7 @@ exercises.push(new Exercise(24,5,5,
         new SolutionCell(4,3,"RED"),
         new SolutionCell(4,4,"RED")]
 ));
-exercises.push(new Exercise(24,6,5,
+exercises.push(new Exercise(25,6,5,
     "<h3 id = 'questionInfo'>Concept 24 Exercise 5 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
@@ -7430,7 +8345,7 @@ exercises.push(new Exercise(24,6,5,
         new SolutionCell(4,3,"RED"),
         new SolutionCell(4,4,"YELLOW")]
 ));
-exercises.push(new Exercise(24,7,7,
+exercises.push(new Exercise(25,7,7,
     "<h3 id = 'questionInfo'>Concept 24 Exercise 6 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
@@ -7491,7 +8406,7 @@ exercises.push(new Exercise(24,7,7,
         new SolutionCell(6,5,"BLUE"),
         new SolutionCell(6,6,"RED")]
 ));
-exercises.push(new Exercise(24,8,7,
+exercises.push(new Exercise(25,8,7,
     "<h3 id = 'questionInfo'>Concept 24 Exercise 7 </h3>" +
     "<p>The access function lets you inspect the contents of a cell." +
     " Placing the IDENTITY brick at a cell will leave the contents of the cell unchanged. </p>" +
